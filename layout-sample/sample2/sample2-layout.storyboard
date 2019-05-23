@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zdN-di-K0E">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Layout1 View Controller-->
+        <scene sceneID="zaL-CH-o7X">
+            <objects>
+                <viewController id="zdN-di-K0E" customClass="layout1ViewController" customModule="layout_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s4L-yf-d4Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="画面A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zl-4r-FPI">
+                                <rect key="frame" x="173.5" y="433" width="67" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJA-Nu-bnp">
+                                <rect key="frame" x="157" y="563" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="CSF-Xc-G1z"/>
+                                    <constraint firstAttribute="width" constant="100" id="thu-XF-efL"/>
+                                </constraints>
+                                <state key="normal" title="画面Bへ"/>
+                                <connections>
+                                    <segue destination="W1A-RY-10x" kind="presentation" id="APG-ZF-Eur"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.44019586267605632" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="VJA-Nu-bnp" firstAttribute="top" secondItem="8zl-4r-FPI" secondAttribute="bottom" constant="100" id="IJe-MN-B6o"/>
+                            <constraint firstItem="VJA-Nu-bnp" firstAttribute="centerX" secondItem="s4L-yf-d4Y" secondAttribute="centerX" id="dnJ-V1-QIJ"/>
+                            <constraint firstItem="8zl-4r-FPI" firstAttribute="centerY" secondItem="s4L-yf-d4Y" secondAttribute="centerY" id="fNv-I3-dgB"/>
+                            <constraint firstItem="8zl-4r-FPI" firstAttribute="centerX" secondItem="s4L-yf-d4Y" secondAttribute="centerX" id="v5R-pp-RT9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NTP-cU-sbS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ElD-Kn-upd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-78" y="234"/>
+        </scene>
+        <!--Layout2 View Controller-->
+        <scene sceneID="y6M-X7-vgS">
+            <objects>
+                <viewController id="W1A-RY-10x" customClass="layout2ViewController" customModule="layout_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OVy-Xo-KoT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="画面B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8wO-kt-Vcd">
+                                <rect key="frame" x="173.5" y="433" width="67" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WLY-4R-lpu">
+                                <rect key="frame" x="157" y="563" width="100" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="6rQ-Dm-Eh8"/>
+                                    <constraint firstAttribute="height" constant="50" id="SZS-8X-JzO"/>
+                                </constraints>
+                                <state key="normal" title="画面Aへ"/>
+                                <connections>
+                                    <segue destination="zdN-di-K0E" kind="presentation" id="gic-tA-aKe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88318279600000005" green="1" blue="0.72335656429999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="8wO-kt-Vcd" firstAttribute="centerX" secondItem="OVy-Xo-KoT" secondAttribute="centerX" id="9vU-BJ-eDF"/>
+                            <constraint firstItem="8wO-kt-Vcd" firstAttribute="centerY" secondItem="OVy-Xo-KoT" secondAttribute="centerY" id="Dv2-eo-vaZ"/>
+                            <constraint firstItem="WLY-4R-lpu" firstAttribute="top" secondItem="8wO-kt-Vcd" secondAttribute="bottom" constant="100" id="lrq-3S-Zaz"/>
+                            <constraint firstItem="WLY-4R-lpu" firstAttribute="centerX" secondItem="OVy-Xo-KoT" secondAttribute="centerX" id="oRv-f2-B5r"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0aF-df-HQU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FGl-aV-GhX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="788" y="234"/>
+        </scene>
+    </scenes>
+</document>

@@ -20,6 +20,13 @@
 		871769AF228C794200C5E8DE /* sample1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871769AE228C794200C5E8DE /* sample1.storyboard */; };
 		871769B1228C794E00C5E8DE /* sample2-goal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871769B0228C794E00C5E8DE /* sample2-goal.storyboard */; };
 		871769B3228C795700C5E8DE /* sample2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 871769B2228C795700C5E8DE /* sample2.storyboard */; };
+		DE50680622967154005FF1FC /* sample2-layout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE50680522967154005FF1FC /* sample2-layout.storyboard */; };
+		DE5068082296755F005FF1FC /* layout1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5068072296755F005FF1FC /* layout1ViewController.swift */; };
+		DE50680A2296758B005FF1FC /* layout2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5068092296758B005FF1FC /* layout2ViewController.swift */; };
+		DE50680C2296796A005FF1FC /* FirstViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE50680B2296796A005FF1FC /* FirstViewController.storyboard */; };
+		DE50680E2296799C005FF1FC /* SecondViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE50680D2296799C005FF1FC /* SecondViewController.storyboard */; };
+		DE506810229679A5005FF1FC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE50680F229679A5005FF1FC /* FirstViewController.swift */; };
+		DE506812229679AD005FF1FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE506811229679AD005FF1FC /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +66,13 @@
 		871769AE228C794200C5E8DE /* sample1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = sample1.storyboard; sourceTree = "<group>"; };
 		871769B0228C794E00C5E8DE /* sample2-goal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "sample2-goal.storyboard"; sourceTree = "<group>"; };
 		871769B2228C795700C5E8DE /* sample2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = sample2.storyboard; sourceTree = "<group>"; };
+		DE50680522967154005FF1FC /* sample2-layout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "sample2-layout.storyboard"; sourceTree = "<group>"; };
+		DE5068072296755F005FF1FC /* layout1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout1ViewController.swift; sourceTree = "<group>"; };
+		DE5068092296758B005FF1FC /* layout2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout2ViewController.swift; sourceTree = "<group>"; };
+		DE50680B2296796A005FF1FC /* FirstViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstViewController.storyboard; sourceTree = "<group>"; };
+		DE50680D2296799C005FF1FC /* SecondViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondViewController.storyboard; sourceTree = "<group>"; };
+		DE50680F229679A5005FF1FC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DE506811229679AD005FF1FC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +123,7 @@
 		87176978228C730400C5E8DE /* layout-sample */ = {
 			isa = PBXGroup;
 			children = (
+				DE50680422967137005FF1FC /* sample2 */,
 				871769A7228C74BA00C5E8DE /* sample1 */,
 				87176979228C730400C5E8DE /* AppDelegate.swift */,
 				8717697B228C730400C5E8DE /* ViewController.swift */,
@@ -149,6 +164,20 @@
 				871769AA228C750300C5E8DE /* sample3-goal.storyboard */,
 			);
 			path = sample1;
+			sourceTree = "<group>";
+		};
+		DE50680422967137005FF1FC /* sample2 */ = {
+			isa = PBXGroup;
+			children = (
+				DE50680522967154005FF1FC /* sample2-layout.storyboard */,
+				DE5068072296755F005FF1FC /* layout1ViewController.swift */,
+				DE5068092296758B005FF1FC /* layout2ViewController.swift */,
+				DE50680B2296796A005FF1FC /* FirstViewController.storyboard */,
+				DE50680D2296799C005FF1FC /* SecondViewController.storyboard */,
+				DE50680F229679A5005FF1FC /* FirstViewController.swift */,
+				DE506811229679AD005FF1FC /* SecondViewController.swift */,
+			);
+			path = sample2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,13 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				871769A9228C74CD00C5E8DE /* sample3.storyboard in Resources */,
+				DE50680E2296799C005FF1FC /* SecondViewController.storyboard in Resources */,
 				871769AB228C750300C5E8DE /* sample3-goal.storyboard in Resources */,
 				871769B1228C794E00C5E8DE /* sample2-goal.storyboard in Resources */,
 				871769AF228C794200C5E8DE /* sample1.storyboard in Resources */,
 				87176984228C730700C5E8DE /* LaunchScreen.storyboard in Resources */,
 				87176981228C730700C5E8DE /* Assets.xcassets in Resources */,
 				8717697F228C730400C5E8DE /* Main.storyboard in Resources */,
+				DE50680C2296796A005FF1FC /* FirstViewController.storyboard in Resources */,
 				871769B3228C795700C5E8DE /* sample2.storyboard in Resources */,
+				DE50680622967154005FF1FC /* sample2-layout.storyboard in Resources */,
 				871769AD228C793A00C5E8DE /* sample1-goal.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +320,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5068082296755F005FF1FC /* layout1ViewController.swift in Sources */,
+				DE50680A2296758B005FF1FC /* layout2ViewController.swift in Sources */,
+				DE506810229679A5005FF1FC /* FirstViewController.swift in Sources */,
+				DE506812229679AD005FF1FC /* SecondViewController.swift in Sources */,
 				8717697C228C730400C5E8DE /* ViewController.swift in Sources */,
 				8717697A228C730400C5E8DE /* AppDelegate.swift in Sources */,
 			);

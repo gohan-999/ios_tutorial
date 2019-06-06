@@ -39,6 +39,11 @@
 		DE65814C229FAE9E00C319E1 /* PushSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65814B229FAE9E00C319E1 /* PushSecondViewController.swift */; };
 		DE65814E229FAFEC00C319E1 /* ScrollViewSample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE65814D229FAFEC00C319E1 /* ScrollViewSample.storyboard */; };
 		DE658150229FB00400C319E1 /* ScrollViewSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65814F229FB00400C319E1 /* ScrollViewSampleViewController.swift */; };
+		DEBA9E8022A8C74A001E4A2F /* TableView1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBA9E7F22A8C74A001E4A2F /* TableView1.storyboard */; };
+		DEBA9E8222A8C753001E4A2F /* TableView1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA9E8122A8C753001E4A2F /* TableView1ViewController.swift */; };
+		DEBA9E8422A8C9A1001E4A2F /* Custom2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA9E8322A8C9A1001E4A2F /* Custom2TableViewCell.swift */; };
+		DEBA9E8622A8C9B5001E4A2F /* Custom2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEBA9E8522A8C9B5001E4A2F /* Custom2TableViewCell.xib */; };
+		DEBA9E8822A8CD6E001E4A2F /* Custom1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA9E8722A8CD6E001E4A2F /* Custom1TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +102,11 @@
 		DE65814B229FAE9E00C319E1 /* PushSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushSecondViewController.swift; sourceTree = "<group>"; };
 		DE65814D229FAFEC00C319E1 /* ScrollViewSample.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollViewSample.storyboard; sourceTree = "<group>"; };
 		DE65814F229FB00400C319E1 /* ScrollViewSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewSampleViewController.swift; sourceTree = "<group>"; };
+		DEBA9E7F22A8C74A001E4A2F /* TableView1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableView1.storyboard; sourceTree = "<group>"; };
+		DEBA9E8122A8C753001E4A2F /* TableView1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView1ViewController.swift; sourceTree = "<group>"; };
+		DEBA9E8322A8C9A1001E4A2F /* Custom2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom2TableViewCell.swift; sourceTree = "<group>"; };
+		DEBA9E8522A8C9B5001E4A2F /* Custom2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Custom2TableViewCell.xib; sourceTree = "<group>"; };
+		DEBA9E8722A8CD6E001E4A2F /* Custom1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom1TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +157,7 @@
 		87176978228C730400C5E8DE /* layout-sample */ = {
 			isa = PBXGroup;
 			children = (
+				DEBA9E7E22A8C486001E4A2F /* sample4 */,
 				DE658138229F99E700C319E1 /* sample3 */,
 				DE50680422967137005FF1FC /* sample2 */,
 				871769A7228C74BA00C5E8DE /* sample1 */,
@@ -222,6 +233,18 @@
 				DE65814F229FB00400C319E1 /* ScrollViewSampleViewController.swift */,
 			);
 			path = sample3;
+			sourceTree = "<group>";
+		};
+		DEBA9E7E22A8C486001E4A2F /* sample4 */ = {
+			isa = PBXGroup;
+			children = (
+				DEBA9E7F22A8C74A001E4A2F /* TableView1.storyboard */,
+				DEBA9E8122A8C753001E4A2F /* TableView1ViewController.swift */,
+				DEBA9E8322A8C9A1001E4A2F /* Custom2TableViewCell.swift */,
+				DEBA9E8522A8C9B5001E4A2F /* Custom2TableViewCell.xib */,
+				DEBA9E8722A8CD6E001E4A2F /* Custom1TableViewCell.swift */,
+			);
+			path = sample4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,11 +363,13 @@
 				DE65813E229FAA2E00C319E1 /* PushSample.storyboard in Resources */,
 				DE65814E229FAFEC00C319E1 /* ScrollViewSample.storyboard in Resources */,
 				87176984228C730700C5E8DE /* LaunchScreen.storyboard in Resources */,
+				DEBA9E8022A8C74A001E4A2F /* TableView1.storyboard in Resources */,
 				87176981228C730700C5E8DE /* Assets.xcassets in Resources */,
 				8717697F228C730400C5E8DE /* Main.storyboard in Resources */,
 				DE50680C2296796A005FF1FC /* FirstViewController.storyboard in Resources */,
 				871769B3228C795700C5E8DE /* sample2.storyboard in Resources */,
 				DE50680622967154005FF1FC /* sample2-layout.storyboard in Resources */,
+				DEBA9E8622A8C9B5001E4A2F /* Custom2TableViewCell.xib in Resources */,
 				871769AD228C793A00C5E8DE /* sample1-goal.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,13 +399,16 @@
 				DE65814C229FAE9E00C319E1 /* PushSecondViewController.swift in Sources */,
 				DE658150229FB00400C319E1 /* ScrollViewSampleViewController.swift in Sources */,
 				DE65813C229FA73600C319E1 /* Sample31ViewController.swift in Sources */,
+				DEBA9E8822A8CD6E001E4A2F /* Custom1TableViewCell.swift in Sources */,
 				DE5068082296755F005FF1FC /* layout1ViewController.swift in Sources */,
 				DE658140229FAA5400C319E1 /* PushViewController.swift in Sources */,
 				DE50680A2296758B005FF1FC /* layout2ViewController.swift in Sources */,
 				DE506810229679A5005FF1FC /* FirstViewController.swift in Sources */,
+				DEBA9E8222A8C753001E4A2F /* TableView1ViewController.swift in Sources */,
 				DE506812229679AD005FF1FC /* SecondViewController.swift in Sources */,
 				8717697C228C730400C5E8DE /* ViewController.swift in Sources */,
 				DE658148229FAAA200C319E1 /* Sample3PushSecondViewController.swift in Sources */,
+				DEBA9E8422A8C9A1001E4A2F /* Custom2TableViewCell.swift in Sources */,
 				8717697A228C730400C5E8DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

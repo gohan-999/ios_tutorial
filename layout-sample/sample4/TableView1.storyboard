@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xqE-yl-VX5">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View1 View Controller-->
+        <scene sceneID="8Dm-yX-p12">
+            <objects>
+                <viewController id="xqE-yl-VX5" customClass="TableView1ViewController" customModule="layout_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MpP-yc-hWu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Vhp-5N-s0x">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Custom1TableViewCell" rowHeight="137" id="aPY-lp-Spq" customClass="Custom1TableViewCell" customModule="layout_sample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="137"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aPY-lp-Spq" id="z0p-b0-muI">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="136.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tid-Pl-jcu">
+                                                    <rect key="frame" x="157" y="53.5" width="100" height="30"/>
+                                                    <color key="backgroundColor" red="0.87997909330000001" green="0.68716989439999998" blue="0.25077024650000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="KYQ-uy-Rq9"/>
+                                                    </constraints>
+                                                    <state key="normal" title="ボタン">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <constraints>
+                                            <constraint firstItem="Tid-Pl-jcu" firstAttribute="centerY" secondItem="aPY-lp-Spq" secondAttribute="centerY" id="L6j-BV-bMu"/>
+                                            <constraint firstItem="Tid-Pl-jcu" firstAttribute="centerX" secondItem="aPY-lp-Spq" secondAttribute="centerX" id="x8A-X7-wXT"/>
+                                        </constraints>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="F1g-Xt-Lr5" firstAttribute="bottom" secondItem="Vhp-5N-s0x" secondAttribute="bottom" id="0Gm-UU-Eo3"/>
+                            <constraint firstItem="Vhp-5N-s0x" firstAttribute="leading" secondItem="F1g-Xt-Lr5" secondAttribute="leading" id="OXp-g9-HhV"/>
+                            <constraint firstItem="F1g-Xt-Lr5" firstAttribute="trailing" secondItem="Vhp-5N-s0x" secondAttribute="trailing" id="VpF-L1-3QY"/>
+                            <constraint firstItem="Vhp-5N-s0x" firstAttribute="top" secondItem="F1g-Xt-Lr5" secondAttribute="top" id="hQo-yv-xvq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="F1g-Xt-Lr5"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Vhp-5N-s0x" id="44u-Gy-sHM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hsr-Ny-s9m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-88.405797101449281" y="233.70535714285714"/>
+        </scene>
+    </scenes>
+</document>

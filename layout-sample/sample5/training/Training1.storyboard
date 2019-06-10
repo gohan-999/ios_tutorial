@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2oC-Z5-sYi">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Training1 View Controller-->
+        <scene sceneID="1bI-Pe-C4U">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1BY-Pg-TJV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="2oC-Z5-sYi" customClass="Training1ViewController" customModule="layout_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Sy-Ga-ENO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="サンプル問題" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDr-Qj-6nG">
+                                <rect key="frame" x="20" y="40" width="335" height="50"/>
+                                <color key="backgroundColor" red="0.92672131980000005" green="1" blue="0.6652509204" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bjq-Tj-zX9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeQ-dh-jcx">
+                                <rect key="frame" x="190" y="140" width="165" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="81X-QV-por"/>
+                                </constraints>
+                                <state key="normal" title="いぬボタン">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedDogButton:" destination="2oC-Z5-sYi" eventType="touchUpInside" id="AXI-hB-Xa7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOs-2b-vcy">
+                                <rect key="frame" x="190" y="215" width="165" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="968-xG-dhI"/>
+                                </constraints>
+                                <state key="normal" title="ねこボタン">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedCatButton:" destination="2oC-Z5-sYi" eventType="touchUpInside" id="F7S-N5-Zzv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PFB-uI-G5M">
+                                <rect key="frame" x="190" y="290" width="165" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="jEK-oG-2Fb"/>
+                                </constraints>
+                                <state key="normal" title="とりボタン">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedBardButton:" destination="2oC-Z5-sYi" eventType="touchUpInside" id="Hsp-PS-zAB"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x3j-6G-8Ig">
+                                <rect key="frame" x="20" y="140" width="150" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🙋🏻‍♂️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CrN-EZ-Dmg">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.61039169839999996" green="0.86033464640000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Bje-uV-Mac"/>
+                                    <constraint firstAttribute="bottom" secondItem="CrN-EZ-Dmg" secondAttribute="bottom" id="Efb-sO-oc8"/>
+                                    <constraint firstItem="CrN-EZ-Dmg" firstAttribute="top" secondItem="x3j-6G-8Ig" secondAttribute="top" id="FGn-DT-37J"/>
+                                    <constraint firstAttribute="height" constant="200" id="SIB-hp-lQ7"/>
+                                    <constraint firstItem="CrN-EZ-Dmg" firstAttribute="leading" secondItem="x3j-6G-8Ig" secondAttribute="leading" id="hcR-Lw-vrJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="CrN-EZ-Dmg" secondAttribute="trailing" id="uuj-Ec-df5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eOs-2b-vcy" firstAttribute="leading" secondItem="x3j-6G-8Ig" secondAttribute="trailing" constant="20" id="0jV-fO-Qxj"/>
+                            <constraint firstItem="PFB-uI-G5M" firstAttribute="bottom" secondItem="x3j-6G-8Ig" secondAttribute="bottom" id="76j-cB-RxV"/>
+                            <constraint firstItem="x3j-6G-8Ig" firstAttribute="top" secondItem="XDr-Qj-6nG" secondAttribute="bottom" constant="50" id="MKk-4L-ihU"/>
+                            <constraint firstItem="hA1-gq-lnL" firstAttribute="trailing" secondItem="QeQ-dh-jcx" secondAttribute="trailing" constant="20" id="RD5-Ul-q6i"/>
+                            <constraint firstItem="hA1-gq-lnL" firstAttribute="trailing" secondItem="eOs-2b-vcy" secondAttribute="trailing" constant="20" id="Rxi-Ur-Y2W"/>
+                            <constraint firstItem="QeQ-dh-jcx" firstAttribute="leading" secondItem="x3j-6G-8Ig" secondAttribute="trailing" constant="20" id="Uxe-sh-aWi"/>
+                            <constraint firstItem="XDr-Qj-6nG" firstAttribute="leading" secondItem="hA1-gq-lnL" secondAttribute="leading" constant="20" id="XOa-lG-Rqs"/>
+                            <constraint firstItem="eOs-2b-vcy" firstAttribute="centerY" secondItem="x3j-6G-8Ig" secondAttribute="centerY" id="YGv-zP-NWd"/>
+                            <constraint firstItem="hA1-gq-lnL" firstAttribute="trailing" secondItem="PFB-uI-G5M" secondAttribute="trailing" constant="20" id="b81-Qm-sxn"/>
+                            <constraint firstItem="XDr-Qj-6nG" firstAttribute="top" secondItem="hA1-gq-lnL" secondAttribute="top" constant="20" id="dUA-uV-naW"/>
+                            <constraint firstItem="x3j-6G-8Ig" firstAttribute="leading" secondItem="hA1-gq-lnL" secondAttribute="leading" constant="20" id="m6r-Oe-mIT"/>
+                            <constraint firstItem="hA1-gq-lnL" firstAttribute="trailing" secondItem="XDr-Qj-6nG" secondAttribute="trailing" constant="20" id="oK8-46-oPT"/>
+                            <constraint firstItem="PFB-uI-G5M" firstAttribute="leading" secondItem="x3j-6G-8Ig" secondAttribute="trailing" constant="20" id="v9t-oW-oNp"/>
+                            <constraint firstItem="QeQ-dh-jcx" firstAttribute="top" secondItem="x3j-6G-8Ig" secondAttribute="top" id="wve-lI-Adf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hA1-gq-lnL"/>
+                    </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="CrN-EZ-Dmg" id="vgr-jR-oqw"/>
+                        <outlet property="bardButton" destination="PFB-uI-G5M" id="vzc-Xx-7CG"/>
+                        <outlet property="catButton" destination="eOs-2b-vcy" id="Ago-8L-aJ6"/>
+                        <outlet property="dogButton" destination="QeQ-dh-jcx" id="zod-bi-F07"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-202.40000000000001" y="-91.304347826086968"/>
+        </scene>
+    </scenes>
+</document>

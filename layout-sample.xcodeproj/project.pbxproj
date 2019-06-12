@@ -26,6 +26,16 @@
 		87D098BC22AE9C1D00426DDC /* ReuseCustom1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D098BB22AE9C1D00426DDC /* ReuseCustom1TableViewCell.swift */; };
 		87D098BF22AE9FFC00426DDC /* Training1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D098BE22AE9FFC00426DDC /* Training1ViewController.swift */; };
 		87D098C122AEA01000426DDC /* Training1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D098C022AEA01000426DDC /* Training1.storyboard */; };
+		87D098C322B159CE00426DDC /* Training2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D098C222B159CE00426DDC /* Training2.storyboard */; };
+		87D098C522B15A4100426DDC /* Training2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D098C422B15A4100426DDC /* Training2ViewController.swift */; };
+		87D098C722B15B6600426DDC /* Training3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D098C622B15B6600426DDC /* Training3ViewController.swift */; };
+		87D098C922B15B7B00426DDC /* Training3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D098C822B15B7B00426DDC /* Training3.storyboard */; };
+		87D098CE22B15F9000426DDC /* Training2SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D098CD22B15F9000426DDC /* Training2SecondViewController.swift */; };
+		87D098D022B15FA800426DDC /* Training2Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D098CF22B15FA800426DDC /* Training2Second.storyboard */; };
+		87D098D222B1632A00426DDC /* Training2ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D098D122B1632A00426DDC /* Training2ThirdViewController.swift */; };
+		87D098D422B1633D00426DDC /* Training2Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D098D322B1633D00426DDC /* Training2Third.storyboard */; };
+		87D098D722B16F0500426DDC /* Training4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D098D622B16F0500426DDC /* Training4ViewController.swift */; };
+		87D098D922B16F1500426DDC /* Training4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D098D822B16F1500426DDC /* Training4.storyboard */; };
 		DE50680622967154005FF1FC /* sample2-layout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE50680522967154005FF1FC /* sample2-layout.storyboard */; };
 		DE5068082296755F005FF1FC /* layout1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5068072296755F005FF1FC /* layout1ViewController.swift */; };
 		DE50680A2296758B005FF1FC /* layout2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5068092296758B005FF1FC /* layout2ViewController.swift */; };
@@ -95,6 +105,16 @@
 		87D098BB22AE9C1D00426DDC /* ReuseCustom1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseCustom1TableViewCell.swift; sourceTree = "<group>"; };
 		87D098BE22AE9FFC00426DDC /* Training1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training1ViewController.swift; sourceTree = "<group>"; };
 		87D098C022AEA01000426DDC /* Training1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training1.storyboard; sourceTree = "<group>"; };
+		87D098C222B159CE00426DDC /* Training2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training2.storyboard; sourceTree = "<group>"; };
+		87D098C422B15A4100426DDC /* Training2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training2ViewController.swift; sourceTree = "<group>"; };
+		87D098C622B15B6600426DDC /* Training3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training3ViewController.swift; sourceTree = "<group>"; };
+		87D098C822B15B7B00426DDC /* Training3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training3.storyboard; sourceTree = "<group>"; };
+		87D098CD22B15F9000426DDC /* Training2SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training2SecondViewController.swift; sourceTree = "<group>"; };
+		87D098CF22B15FA800426DDC /* Training2Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training2Second.storyboard; sourceTree = "<group>"; };
+		87D098D122B1632A00426DDC /* Training2ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training2ThirdViewController.swift; sourceTree = "<group>"; };
+		87D098D322B1633D00426DDC /* Training2Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training2Third.storyboard; sourceTree = "<group>"; };
+		87D098D622B16F0500426DDC /* Training4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4ViewController.swift; sourceTree = "<group>"; };
+		87D098D822B16F1500426DDC /* Training4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training4.storyboard; sourceTree = "<group>"; };
 		DE50680522967154005FF1FC /* sample2-layout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "sample2-layout.storyboard"; sourceTree = "<group>"; };
 		DE5068072296755F005FF1FC /* layout1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout1ViewController.swift; sourceTree = "<group>"; };
 		DE5068092296758B005FF1FC /* layout2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout2ViewController.swift; sourceTree = "<group>"; };
@@ -218,7 +238,7 @@
 		87D098B422AE9A9800426DDC /* sample5 */ = {
 			isa = PBXGroup;
 			children = (
-				87D098BD22AE9FCE00426DDC /* training */,
+				87D098BD22AE9FCE00426DDC /* Trainings */,
 				87D098B522AE9AC200426DDC /* TableViewSample1ViewController.swift */,
 				87D098B722AE9AD400426DDC /* TableViewSample1.storyboard */,
 				87D098B922AE9BFA00426DDC /* ReuseCustom1.xib */,
@@ -227,13 +247,55 @@
 			path = sample5;
 			sourceTree = "<group>";
 		};
-		87D098BD22AE9FCE00426DDC /* training */ = {
+		87D098BD22AE9FCE00426DDC /* Trainings */ = {
+			isa = PBXGroup;
+			children = (
+				87D098D522B16EF100426DDC /* Training4 */,
+				87D098CC22B15F7100426DDC /* Training3 */,
+				87D098CB22B15F5A00426DDC /* Training2 */,
+				87D098CA22B15F4C00426DDC /* Training1 */,
+			);
+			path = Trainings;
+			sourceTree = "<group>";
+		};
+		87D098CA22B15F4C00426DDC /* Training1 */ = {
 			isa = PBXGroup;
 			children = (
 				87D098BE22AE9FFC00426DDC /* Training1ViewController.swift */,
 				87D098C022AEA01000426DDC /* Training1.storyboard */,
 			);
-			path = training;
+			path = Training1;
+			sourceTree = "<group>";
+		};
+		87D098CB22B15F5A00426DDC /* Training2 */ = {
+			isa = PBXGroup;
+			children = (
+				87D098C222B159CE00426DDC /* Training2.storyboard */,
+				87D098C422B15A4100426DDC /* Training2ViewController.swift */,
+				87D098CD22B15F9000426DDC /* Training2SecondViewController.swift */,
+				87D098CF22B15FA800426DDC /* Training2Second.storyboard */,
+				87D098D122B1632A00426DDC /* Training2ThirdViewController.swift */,
+				87D098D322B1633D00426DDC /* Training2Third.storyboard */,
+			);
+			path = Training2;
+			sourceTree = "<group>";
+		};
+		87D098CC22B15F7100426DDC /* Training3 */ = {
+			isa = PBXGroup;
+			children = (
+				87D098C622B15B6600426DDC /* Training3ViewController.swift */,
+				87D098C822B15B7B00426DDC /* Training3.storyboard */,
+			);
+			path = Training3;
+			sourceTree = "<group>";
+		};
+		87D098D522B16EF100426DDC /* Training4 */ = {
+			isa = PBXGroup;
+			children = (
+				87D098D622B16F0500426DDC /* Training4ViewController.swift */,
+				87D098D822B16F1500426DDC /* Training4.storyboard */,
+			);
+			path = Training4;
 			sourceTree = "<group>";
 		};
 		DE50680422967137005FF1FC /* sample2 */ = {
@@ -386,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				871769A9228C74CD00C5E8DE /* sample3.storyboard in Resources */,
+				87D098C322B159CE00426DDC /* Training2.storyboard in Resources */,
 				DE658147229FAAA200C319E1 /* Sample3PushSecondViewController.storyboard in Resources */,
 				DE50680E2296799C005FF1FC /* SecondViewController.storyboard in Resources */,
 				871769AB228C750300C5E8DE /* sample3-goal.storyboard in Resources */,
@@ -395,6 +458,7 @@
 				871769AF228C794200C5E8DE /* sample1.storyboard in Resources */,
 				DE65813A229FA71600C319E1 /* sample31.storyboard in Resources */,
 				87D098C122AEA01000426DDC /* Training1.storyboard in Resources */,
+				87D098D022B15FA800426DDC /* Training2Second.storyboard in Resources */,
 				DE658146229FAAA200C319E1 /* Sample3PushFirstViewController.storyboard in Resources */,
 				87D098B822AE9AD400426DDC /* TableViewSample1.storyboard in Resources */,
 				DE65813E229FAA2E00C319E1 /* PushSample.storyboard in Resources */,
@@ -405,9 +469,12 @@
 				8717697F228C730400C5E8DE /* Main.storyboard in Resources */,
 				DE50680C2296796A005FF1FC /* FirstViewController.storyboard in Resources */,
 				871769B3228C795700C5E8DE /* sample2.storyboard in Resources */,
+				87D098D422B1633D00426DDC /* Training2Third.storyboard in Resources */,
+				87D098C922B15B7B00426DDC /* Training3.storyboard in Resources */,
 				DE50680622967154005FF1FC /* sample2-layout.storyboard in Resources */,
 				DEBA9E8622A8C9B5001E4A2F /* Custom2TableViewCell.xib in Resources */,
 				871769AD228C793A00C5E8DE /* sample1-goal.storyboard in Resources */,
+				87D098D922B16F1500426DDC /* Training4.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,19 +499,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D098D722B16F0500426DDC /* Training4ViewController.swift in Sources */,
 				87D098BC22AE9C1D00426DDC /* ReuseCustom1TableViewCell.swift in Sources */,
 				DE658145229FAAA200C319E1 /* Sample3PushFirstViewController.swift in Sources */,
 				DE65814C229FAE9E00C319E1 /* PushSecondViewController.swift in Sources */,
 				DE658150229FB00400C319E1 /* ScrollViewSampleViewController.swift in Sources */,
+				87D098C522B15A4100426DDC /* Training2ViewController.swift in Sources */,
 				DE65813C229FA73600C319E1 /* Sample31ViewController.swift in Sources */,
 				87D098B622AE9AC200426DDC /* TableViewSample1ViewController.swift in Sources */,
 				DEBA9E8822A8CD6E001E4A2F /* Custom1TableViewCell.swift in Sources */,
 				DE5068082296755F005FF1FC /* layout1ViewController.swift in Sources */,
 				DE658140229FAA5400C319E1 /* PushViewController.swift in Sources */,
 				DE50680A2296758B005FF1FC /* layout2ViewController.swift in Sources */,
+				87D098CE22B15F9000426DDC /* Training2SecondViewController.swift in Sources */,
 				DE506810229679A5005FF1FC /* FirstViewController.swift in Sources */,
+				87D098D222B1632A00426DDC /* Training2ThirdViewController.swift in Sources */,
 				DEBA9E8222A8C753001E4A2F /* TableView1ViewController.swift in Sources */,
 				87D098BF22AE9FFC00426DDC /* Training1ViewController.swift in Sources */,
+				87D098C722B15B6600426DDC /* Training3ViewController.swift in Sources */,
 				DE506812229679AD005FF1FC /* SecondViewController.swift in Sources */,
 				8717697C228C730400C5E8DE /* ViewController.swift in Sources */,
 				DE658148229FAAA200C319E1 /* Sample3PushSecondViewController.swift in Sources */,

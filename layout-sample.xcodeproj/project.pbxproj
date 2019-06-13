@@ -40,6 +40,12 @@
 		DE20B7F022B1FAEC000ACD0D /* Training3Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE20B7EF22B1FAEC000ACD0D /* Training3Second.storyboard */; };
 		DE20B7F222B1FD1C000ACD0D /* Training3ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20B7F122B1FD1C000ACD0D /* Training3ThirdViewController.swift */; };
 		DE20B7F422B1FD2C000ACD0D /* Training3Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE20B7F322B1FD2C000ACD0D /* Training3Third.storyboard */; };
+		DE20B7F622B20326000ACD0D /* Training4SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20B7F522B20326000ACD0D /* Training4SecondViewController.swift */; };
+		DE20B7F822B20337000ACD0D /* Training4Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE20B7F722B20337000ACD0D /* Training4Second.storyboard */; };
+		DE20B7FA22B20359000ACD0D /* Training4ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20B7F922B20359000ACD0D /* Training4ThirdViewController.swift */; };
+		DE20B7FC22B20369000ACD0D /* Training4Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE20B7FB22B20369000ACD0D /* Training4Third.storyboard */; };
+		DE20B7FE22B20398000ACD0D /* Training4FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20B7FD22B20398000ACD0D /* Training4FourthViewController.swift */; };
+		DE20B80022B203A9000ACD0D /* Training4Fourth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE20B7FF22B203A9000ACD0D /* Training4Fourth.storyboard */; };
 		DE50680622967154005FF1FC /* sample2-layout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE50680522967154005FF1FC /* sample2-layout.storyboard */; };
 		DE5068082296755F005FF1FC /* layout1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5068072296755F005FF1FC /* layout1ViewController.swift */; };
 		DE50680A2296758B005FF1FC /* layout2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5068092296758B005FF1FC /* layout2ViewController.swift */; };
@@ -123,6 +129,12 @@
 		DE20B7EF22B1FAEC000ACD0D /* Training3Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training3Second.storyboard; sourceTree = "<group>"; };
 		DE20B7F122B1FD1C000ACD0D /* Training3ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training3ThirdViewController.swift; sourceTree = "<group>"; };
 		DE20B7F322B1FD2C000ACD0D /* Training3Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training3Third.storyboard; sourceTree = "<group>"; };
+		DE20B7F522B20326000ACD0D /* Training4SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4SecondViewController.swift; sourceTree = "<group>"; };
+		DE20B7F722B20337000ACD0D /* Training4Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training4Second.storyboard; sourceTree = "<group>"; };
+		DE20B7F922B20359000ACD0D /* Training4ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4ThirdViewController.swift; sourceTree = "<group>"; };
+		DE20B7FB22B20369000ACD0D /* Training4Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training4Third.storyboard; sourceTree = "<group>"; };
+		DE20B7FD22B20398000ACD0D /* Training4FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4FourthViewController.swift; sourceTree = "<group>"; };
+		DE20B7FF22B203A9000ACD0D /* Training4Fourth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training4Fourth.storyboard; sourceTree = "<group>"; };
 		DE50680522967154005FF1FC /* sample2-layout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "sample2-layout.storyboard"; sourceTree = "<group>"; };
 		DE5068072296755F005FF1FC /* layout1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout1ViewController.swift; sourceTree = "<group>"; };
 		DE5068092296758B005FF1FC /* layout2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout2ViewController.swift; sourceTree = "<group>"; };
@@ -306,6 +318,12 @@
 			children = (
 				87D098D622B16F0500426DDC /* Training4ViewController.swift */,
 				87D098D822B16F1500426DDC /* Training4.storyboard */,
+				DE20B7F522B20326000ACD0D /* Training4SecondViewController.swift */,
+				DE20B7F722B20337000ACD0D /* Training4Second.storyboard */,
+				DE20B7F922B20359000ACD0D /* Training4ThirdViewController.swift */,
+				DE20B7FB22B20369000ACD0D /* Training4Third.storyboard */,
+				DE20B7FD22B20398000ACD0D /* Training4FourthViewController.swift */,
+				DE20B7FF22B203A9000ACD0D /* Training4Fourth.storyboard */,
 			);
 			path = Training4;
 			sourceTree = "<group>";
@@ -472,6 +490,7 @@
 				87D098C122AEA01000426DDC /* Training1.storyboard in Resources */,
 				87D098D022B15FA800426DDC /* Training2Second.storyboard in Resources */,
 				DE658146229FAAA200C319E1 /* Sample3PushFirstViewController.storyboard in Resources */,
+				DE20B7F822B20337000ACD0D /* Training4Second.storyboard in Resources */,
 				87D098B822AE9AD400426DDC /* TableViewSample1.storyboard in Resources */,
 				DE65813E229FAA2E00C319E1 /* PushSample.storyboard in Resources */,
 				DE20B7F422B1FD2C000ACD0D /* Training3Third.storyboard in Resources */,
@@ -482,9 +501,11 @@
 				8717697F228C730400C5E8DE /* Main.storyboard in Resources */,
 				DE50680C2296796A005FF1FC /* FirstViewController.storyboard in Resources */,
 				871769B3228C795700C5E8DE /* sample2.storyboard in Resources */,
+				DE20B80022B203A9000ACD0D /* Training4Fourth.storyboard in Resources */,
 				87D098D422B1633D00426DDC /* Training2Third.storyboard in Resources */,
 				87D098C922B15B7B00426DDC /* Training3.storyboard in Resources */,
 				DE50680622967154005FF1FC /* sample2-layout.storyboard in Resources */,
+				DE20B7FC22B20369000ACD0D /* Training4Third.storyboard in Resources */,
 				DEBA9E8622A8C9B5001E4A2F /* Custom2TableViewCell.xib in Resources */,
 				871769AD228C793A00C5E8DE /* sample1-goal.storyboard in Resources */,
 				DE20B7F022B1FAEC000ACD0D /* Training3Second.storyboard in Resources */,
@@ -514,12 +535,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				87D098D722B16F0500426DDC /* Training4ViewController.swift in Sources */,
+				DE20B7FE22B20398000ACD0D /* Training4FourthViewController.swift in Sources */,
 				87D098BC22AE9C1D00426DDC /* ReuseCustom1TableViewCell.swift in Sources */,
 				DE658145229FAAA200C319E1 /* Sample3PushFirstViewController.swift in Sources */,
 				DE65814C229FAE9E00C319E1 /* PushSecondViewController.swift in Sources */,
 				DE658150229FB00400C319E1 /* ScrollViewSampleViewController.swift in Sources */,
+				DE20B7FA22B20359000ACD0D /* Training4ThirdViewController.swift in Sources */,
 				87D098C522B15A4100426DDC /* Training2ViewController.swift in Sources */,
 				DE65813C229FA73600C319E1 /* Sample31ViewController.swift in Sources */,
+				DE20B7F622B20326000ACD0D /* Training4SecondViewController.swift in Sources */,
 				87D098B622AE9AC200426DDC /* TableViewSample1ViewController.swift in Sources */,
 				DE20B7EE22B1FADA000ACD0D /* Training3SecondViewController.swift in Sources */,
 				DEBA9E8822A8CD6E001E4A2F /* Custom1TableViewCell.swift in Sources */,

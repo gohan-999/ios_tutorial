@@ -17,9 +17,7 @@ class Training2ViewController: UIViewController {
             self.modalTransition(sb: storyBoard, identifier: "Training2ThirdViewController")
         })
         
-        let cancelAction: UIAlertAction = UIAlertAction(title: "キャンセル", style: .cancel, handler:{ _ in
-            print("Cancel")
-        })
+        let cancelAction = UIAlertAction(title: "キャンセル", style: .cancel)
         
         alert.addAction(cancelAction)
         alert.addAction(secondAction)
@@ -39,9 +37,7 @@ class Training2ViewController: UIViewController {
             self.pushTransition(sb: storyBoard, identifier: "Training2ThirdViewController")
         })
 
-        let cancelAction: UIAlertAction = UIAlertAction(title: "キャンセル", style: .cancel, handler:{ _ in
-            print("Cancel")
-        })
+        let cancelAction = UIAlertAction(title: "キャンセル", style: .cancel)
         
         alert.addAction(cancelAction)
         alert.addAction(secondAction)

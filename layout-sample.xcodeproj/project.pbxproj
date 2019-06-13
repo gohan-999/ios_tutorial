@@ -36,6 +36,10 @@
 		87D098D422B1633D00426DDC /* Training2Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D098D322B1633D00426DDC /* Training2Third.storyboard */; };
 		87D098D722B16F0500426DDC /* Training4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D098D622B16F0500426DDC /* Training4ViewController.swift */; };
 		87D098D922B16F1500426DDC /* Training4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D098D822B16F1500426DDC /* Training4.storyboard */; };
+		DE20B7EE22B1FADA000ACD0D /* Training3SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20B7ED22B1FADA000ACD0D /* Training3SecondViewController.swift */; };
+		DE20B7F022B1FAEC000ACD0D /* Training3Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE20B7EF22B1FAEC000ACD0D /* Training3Second.storyboard */; };
+		DE20B7F222B1FD1C000ACD0D /* Training3ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20B7F122B1FD1C000ACD0D /* Training3ThirdViewController.swift */; };
+		DE20B7F422B1FD2C000ACD0D /* Training3Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE20B7F322B1FD2C000ACD0D /* Training3Third.storyboard */; };
 		DE50680622967154005FF1FC /* sample2-layout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE50680522967154005FF1FC /* sample2-layout.storyboard */; };
 		DE5068082296755F005FF1FC /* layout1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5068072296755F005FF1FC /* layout1ViewController.swift */; };
 		DE50680A2296758B005FF1FC /* layout2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5068092296758B005FF1FC /* layout2ViewController.swift */; };
@@ -115,6 +119,10 @@
 		87D098D322B1633D00426DDC /* Training2Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training2Third.storyboard; sourceTree = "<group>"; };
 		87D098D622B16F0500426DDC /* Training4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4ViewController.swift; sourceTree = "<group>"; };
 		87D098D822B16F1500426DDC /* Training4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training4.storyboard; sourceTree = "<group>"; };
+		DE20B7ED22B1FADA000ACD0D /* Training3SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training3SecondViewController.swift; sourceTree = "<group>"; };
+		DE20B7EF22B1FAEC000ACD0D /* Training3Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training3Second.storyboard; sourceTree = "<group>"; };
+		DE20B7F122B1FD1C000ACD0D /* Training3ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training3ThirdViewController.swift; sourceTree = "<group>"; };
+		DE20B7F322B1FD2C000ACD0D /* Training3Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training3Third.storyboard; sourceTree = "<group>"; };
 		DE50680522967154005FF1FC /* sample2-layout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "sample2-layout.storyboard"; sourceTree = "<group>"; };
 		DE5068072296755F005FF1FC /* layout1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout1ViewController.swift; sourceTree = "<group>"; };
 		DE5068092296758B005FF1FC /* layout2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout2ViewController.swift; sourceTree = "<group>"; };
@@ -285,6 +293,10 @@
 			children = (
 				87D098C622B15B6600426DDC /* Training3ViewController.swift */,
 				87D098C822B15B7B00426DDC /* Training3.storyboard */,
+				DE20B7ED22B1FADA000ACD0D /* Training3SecondViewController.swift */,
+				DE20B7EF22B1FAEC000ACD0D /* Training3Second.storyboard */,
+				DE20B7F122B1FD1C000ACD0D /* Training3ThirdViewController.swift */,
+				DE20B7F322B1FD2C000ACD0D /* Training3Third.storyboard */,
 			);
 			path = Training3;
 			sourceTree = "<group>";
@@ -462,6 +474,7 @@
 				DE658146229FAAA200C319E1 /* Sample3PushFirstViewController.storyboard in Resources */,
 				87D098B822AE9AD400426DDC /* TableViewSample1.storyboard in Resources */,
 				DE65813E229FAA2E00C319E1 /* PushSample.storyboard in Resources */,
+				DE20B7F422B1FD2C000ACD0D /* Training3Third.storyboard in Resources */,
 				DE65814E229FAFEC00C319E1 /* ScrollViewSample.storyboard in Resources */,
 				87176984228C730700C5E8DE /* LaunchScreen.storyboard in Resources */,
 				DEBA9E8022A8C74A001E4A2F /* TableView1.storyboard in Resources */,
@@ -474,6 +487,7 @@
 				DE50680622967154005FF1FC /* sample2-layout.storyboard in Resources */,
 				DEBA9E8622A8C9B5001E4A2F /* Custom2TableViewCell.xib in Resources */,
 				871769AD228C793A00C5E8DE /* sample1-goal.storyboard in Resources */,
+				DE20B7F022B1FAEC000ACD0D /* Training3Second.storyboard in Resources */,
 				87D098D922B16F1500426DDC /* Training4.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,11 +521,13 @@
 				87D098C522B15A4100426DDC /* Training2ViewController.swift in Sources */,
 				DE65813C229FA73600C319E1 /* Sample31ViewController.swift in Sources */,
 				87D098B622AE9AC200426DDC /* TableViewSample1ViewController.swift in Sources */,
+				DE20B7EE22B1FADA000ACD0D /* Training3SecondViewController.swift in Sources */,
 				DEBA9E8822A8CD6E001E4A2F /* Custom1TableViewCell.swift in Sources */,
 				DE5068082296755F005FF1FC /* layout1ViewController.swift in Sources */,
 				DE658140229FAA5400C319E1 /* PushViewController.swift in Sources */,
 				DE50680A2296758B005FF1FC /* layout2ViewController.swift in Sources */,
 				87D098CE22B15F9000426DDC /* Training2SecondViewController.swift in Sources */,
+				DE20B7F222B1FD1C000ACD0D /* Training3ThirdViewController.swift in Sources */,
 				DE506810229679A5005FF1FC /* FirstViewController.swift in Sources */,
 				87D098D222B1632A00426DDC /* Training2ThirdViewController.swift in Sources */,
 				DEBA9E8222A8C753001E4A2F /* TableView1ViewController.swift in Sources */,

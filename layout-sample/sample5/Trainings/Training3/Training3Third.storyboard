@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0MB-jP-QQk">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Training3 Third View Controller-->
+        <scene sceneID="EH0-zV-DwA">
+            <objects>
+                <viewController storyboardIdentifier="Training3ThirdViewController" id="0MB-jP-QQk" customClass="Training3ThirdViewController" customModule="layout_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F0K-Ji-NAe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="応募ありがとうございます！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hna-o2-eBq">
+                                <rect key="frame" x="20" y="94" width="374" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UtJ-FT-bvI">
+                                <rect key="frame" x="20" y="144" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tyh-zF-4bG">
+                                <rect key="frame" x="132" y="762" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.88318279600000005" green="1" blue="0.72335656429999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="56d-Gr-ysh"/>
+                                    <constraint firstAttribute="height" constant="50" id="Ga8-eW-p1d"/>
+                                </constraints>
+                                <state key="normal" title="最初に戻る"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="0MB-jP-QQk" eventType="touchUpInside" id="Y5Z-ng-bPt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UmL-cX-e43" firstAttribute="trailing" secondItem="UtJ-FT-bvI" secondAttribute="trailing" constant="20" id="3UU-7Y-gKj"/>
+                            <constraint firstItem="UmL-cX-e43" firstAttribute="trailing" secondItem="hna-o2-eBq" secondAttribute="trailing" constant="20" id="3ey-KF-zgj"/>
+                            <constraint firstItem="UmL-cX-e43" firstAttribute="bottom" secondItem="Tyh-zF-4bG" secondAttribute="bottom" constant="50" id="V21-fJ-koe"/>
+                            <constraint firstItem="Tyh-zF-4bG" firstAttribute="centerX" secondItem="F0K-Ji-NAe" secondAttribute="centerX" id="VHj-bu-tk1"/>
+                            <constraint firstItem="hna-o2-eBq" firstAttribute="top" secondItem="UmL-cX-e43" secondAttribute="top" constant="50" id="g2M-cp-ge4"/>
+                            <constraint firstItem="UtJ-FT-bvI" firstAttribute="top" secondItem="hna-o2-eBq" secondAttribute="bottom" constant="20" id="il4-Ng-Ar4"/>
+                            <constraint firstItem="hna-o2-eBq" firstAttribute="leading" secondItem="UmL-cX-e43" secondAttribute="leading" constant="20" id="kfV-Xt-xxq"/>
+                            <constraint firstItem="UtJ-FT-bvI" firstAttribute="leading" secondItem="UmL-cX-e43" secondAttribute="leading" constant="20" id="wc9-rz-aVa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UmL-cX-e43"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="UtJ-FT-bvI" id="ez7-Sc-cNk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r0J-tJ-B11" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104" y="82"/>
+        </scene>
+    </scenes>
+</document>

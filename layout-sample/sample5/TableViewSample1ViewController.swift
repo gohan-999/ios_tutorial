@@ -19,9 +19,9 @@ class TableViewSample1ViewController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "ReuseCustom1") as! ReuseCustom1TableViewCell
         cell.bind(text: "サンプル \(indexPath.row)")
-        if indexPath.row % 3 == 0 {
-            cell.backgroundColor = UIColor.red
-        }
+//        if indexPath.row % 3 == 0 {
+//            cell.backgroundColor = UIColor.red
+//        }
         return cell
     }
 

@@ -42,14 +42,23 @@
                                     <action selector="tappedButton:" destination="0MB-jP-QQk" eventType="touchUpInside" id="Y5Z-ng-bPt"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medetai" translatesAutoresizingMaskIntoConstraints="NO" id="WtW-Wa-TeD">
+                                <rect key="frame" x="132" y="215" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="f4a-q1-dgo"/>
+                                    <constraint firstAttribute="height" constant="150" id="kwU-xR-2rk"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="UmL-cX-e43" firstAttribute="trailing" secondItem="UtJ-FT-bvI" secondAttribute="trailing" constant="20" id="3UU-7Y-gKj"/>
                             <constraint firstItem="UmL-cX-e43" firstAttribute="trailing" secondItem="hna-o2-eBq" secondAttribute="trailing" constant="20" id="3ey-KF-zgj"/>
+                            <constraint firstItem="WtW-Wa-TeD" firstAttribute="top" secondItem="UtJ-FT-bvI" secondAttribute="bottom" constant="50" id="EFO-Vu-e62"/>
                             <constraint firstItem="UmL-cX-e43" firstAttribute="bottom" secondItem="Tyh-zF-4bG" secondAttribute="bottom" constant="50" id="V21-fJ-koe"/>
                             <constraint firstItem="Tyh-zF-4bG" firstAttribute="centerX" secondItem="F0K-Ji-NAe" secondAttribute="centerX" id="VHj-bu-tk1"/>
                             <constraint firstItem="hna-o2-eBq" firstAttribute="top" secondItem="UmL-cX-e43" secondAttribute="top" constant="50" id="g2M-cp-ge4"/>
+                            <constraint firstItem="WtW-Wa-TeD" firstAttribute="centerX" secondItem="F0K-Ji-NAe" secondAttribute="centerX" id="igR-4I-BZh"/>
                             <constraint firstItem="UtJ-FT-bvI" firstAttribute="top" secondItem="hna-o2-eBq" secondAttribute="bottom" constant="20" id="il4-Ng-Ar4"/>
                             <constraint firstItem="hna-o2-eBq" firstAttribute="leading" secondItem="UmL-cX-e43" secondAttribute="leading" constant="20" id="kfV-Xt-xxq"/>
                             <constraint firstItem="UtJ-FT-bvI" firstAttribute="leading" secondItem="UmL-cX-e43" secondAttribute="leading" constant="20" id="wc9-rz-aVa"/>
@@ -65,4 +74,7 @@
             <point key="canvasLocation" x="104" y="82"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="medetai" width="330" height="330"/>
+    </resources>
 </document>

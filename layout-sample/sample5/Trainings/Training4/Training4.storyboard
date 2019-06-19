@@ -18,15 +18,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="画面遷移、Tableview、push" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gG-fv-gla">
-                                <rect key="frame" x="40" y="280" width="218" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TableVIewの練習" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYu-3t-Ka5">
+                                <rect key="frame" x="20" y="283.5" width="335" height="100"/>
+                                <color key="backgroundColor" red="0.95523184539999995" green="0.78979304770000003" blue="0.74487975240000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="tB3-31-qQP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqd-7s-78L">
+                                <rect key="frame" x="20" y="597" width="335" height="50"/>
+                                <color key="backgroundColor" red="0.62420953889999997" green="0.6662056153" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="uwD-AF-req"/>
+                                </constraints>
+                                <state key="normal" title="表示">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedButton:" destination="nDf-2o-Mal" eventType="touchUpInside" id="V6c-wm-Eq1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OgW-nr-Bv3" firstAttribute="trailing" secondItem="iqd-7s-78L" secondAttribute="trailing" constant="20" id="28C-Bz-5Ic"/>
+                            <constraint firstItem="CYu-3t-Ka5" firstAttribute="centerY" secondItem="8MF-GF-MO7" secondAttribute="centerY" id="3r2-HH-kQS"/>
+                            <constraint firstItem="iqd-7s-78L" firstAttribute="leading" secondItem="OgW-nr-Bv3" secondAttribute="leading" constant="20" id="6gq-cP-NOE"/>
+                            <constraint firstItem="OgW-nr-Bv3" firstAttribute="bottom" secondItem="iqd-7s-78L" secondAttribute="bottom" constant="20" id="93A-07-t1I"/>
+                            <constraint firstItem="CYu-3t-Ka5" firstAttribute="leading" secondItem="OgW-nr-Bv3" secondAttribute="leading" constant="20" id="f3N-gH-Hki"/>
+                            <constraint firstItem="OgW-nr-Bv3" firstAttribute="trailing" secondItem="CYu-3t-Ka5" secondAttribute="trailing" constant="20" id="ggj-Zu-Fc8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="OgW-nr-Bv3"/>
                     </view>
                 </viewController>

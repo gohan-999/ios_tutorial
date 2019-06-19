@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v29-fl-Tia">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v29-fl-Tia">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,9 +17,52 @@
                     <view key="view" contentMode="scaleToFill" id="b4H-8Q-FSB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7RX-qI-Lgu">
+                                <rect key="frame" x="20" y="427" width="374" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDS-vu-zsk">
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.80179383069999999" blue="0.064187152230000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Ckd-SU-QRK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="閉じる">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedButton:" destination="v29-fl-Tia" eventType="touchUpInside" id="XWW-Jl-6Iq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="購入ありがとうございます！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Egs-Gb-kbt">
+                                <rect key="frame" x="20" y="64" width="374" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PDS-vu-zsk" firstAttribute="leading" secondItem="eiR-Uo-GDC" secondAttribute="leading" constant="20" id="0tE-Wg-p8Y"/>
+                            <constraint firstItem="Egs-Gb-kbt" firstAttribute="top" secondItem="eiR-Uo-GDC" secondAttribute="top" constant="20" id="9Em-pl-Aq6"/>
+                            <constraint firstItem="eiR-Uo-GDC" firstAttribute="trailing" secondItem="PDS-vu-zsk" secondAttribute="trailing" constant="20" id="Ej5-70-Ucn"/>
+                            <constraint firstItem="7RX-qI-Lgu" firstAttribute="centerY" secondItem="b4H-8Q-FSB" secondAttribute="centerY" id="U6T-6H-BOy"/>
+                            <constraint firstItem="7RX-qI-Lgu" firstAttribute="leading" secondItem="eiR-Uo-GDC" secondAttribute="leading" constant="20" id="enj-ix-Mdw"/>
+                            <constraint firstItem="eiR-Uo-GDC" firstAttribute="bottom" secondItem="PDS-vu-zsk" secondAttribute="bottom" constant="20" id="g7Q-Qu-5zN"/>
+                            <constraint firstItem="7RX-qI-Lgu" firstAttribute="centerX" secondItem="b4H-8Q-FSB" secondAttribute="centerX" id="hil-87-X7o"/>
+                            <constraint firstItem="eiR-Uo-GDC" firstAttribute="trailing" secondItem="7RX-qI-Lgu" secondAttribute="trailing" constant="20" id="jYE-1K-05T"/>
+                            <constraint firstItem="Egs-Gb-kbt" firstAttribute="leading" secondItem="eiR-Uo-GDC" secondAttribute="leading" constant="20" id="nT7-Th-zrG"/>
+                            <constraint firstItem="eiR-Uo-GDC" firstAttribute="trailing" secondItem="Egs-Gb-kbt" secondAttribute="trailing" constant="20" id="nY3-m0-pwQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="eiR-Uo-GDC"/>
                     </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="7RX-qI-Lgu" id="bfM-hO-BKa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bm3-bD-28a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

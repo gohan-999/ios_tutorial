@@ -36,6 +36,10 @@
 		87D098D422B1633D00426DDC /* Training2Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D098D322B1633D00426DDC /* Training2Third.storyboard */; };
 		87D098D722B16F0500426DDC /* Training4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D098D622B16F0500426DDC /* Training4ViewController.swift */; };
 		87D098D922B16F1500426DDC /* Training4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D098D822B16F1500426DDC /* Training4.storyboard */; };
+		87D098DD22BA80A800426DDC /* Training5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D098DC22BA80A800426DDC /* Training5ViewController.swift */; };
+		87D098DF22BA80B900426DDC /* Training5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D098DE22BA80B900426DDC /* Training5.storyboard */; };
+		87D098E122BA863F00426DDC /* Training4CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87D098E022BA863F00426DDC /* Training4CustomCell.xib */; };
+		87D098E322BA865900426DDC /* Training4CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D098E222BA865900426DDC /* Training4CustomTableViewCell.swift */; };
 		DE20B7EE22B1FADA000ACD0D /* Training3SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20B7ED22B1FADA000ACD0D /* Training3SecondViewController.swift */; };
 		DE20B7F022B1FAEC000ACD0D /* Training3Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE20B7EF22B1FAEC000ACD0D /* Training3Second.storyboard */; };
 		DE20B7F222B1FD1C000ACD0D /* Training3ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20B7F122B1FD1C000ACD0D /* Training3ThirdViewController.swift */; };
@@ -125,6 +129,10 @@
 		87D098D322B1633D00426DDC /* Training2Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training2Third.storyboard; sourceTree = "<group>"; };
 		87D098D622B16F0500426DDC /* Training4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4ViewController.swift; sourceTree = "<group>"; };
 		87D098D822B16F1500426DDC /* Training4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training4.storyboard; sourceTree = "<group>"; };
+		87D098DC22BA80A800426DDC /* Training5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training5ViewController.swift; sourceTree = "<group>"; };
+		87D098DE22BA80B900426DDC /* Training5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training5.storyboard; sourceTree = "<group>"; };
+		87D098E022BA863F00426DDC /* Training4CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Training4CustomCell.xib; sourceTree = "<group>"; };
+		87D098E222BA865900426DDC /* Training4CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4CustomTableViewCell.swift; sourceTree = "<group>"; };
 		DE20B7ED22B1FADA000ACD0D /* Training3SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training3SecondViewController.swift; sourceTree = "<group>"; };
 		DE20B7EF22B1FAEC000ACD0D /* Training3Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training3Second.storyboard; sourceTree = "<group>"; };
 		DE20B7F122B1FD1C000ACD0D /* Training3ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training3ThirdViewController.swift; sourceTree = "<group>"; };
@@ -209,6 +217,7 @@
 		87176978228C730400C5E8DE /* layout-sample */ = {
 			isa = PBXGroup;
 			children = (
+				87D098DA22BA808A00426DDC /* sample6 */,
 				87D098B422AE9A9800426DDC /* sample5 */,
 				DEBA9E7E22A8C486001E4A2F /* sample4 */,
 				DE658138229F99E700C319E1 /* sample3 */,
@@ -324,8 +333,27 @@
 				DE20B7FB22B20369000ACD0D /* Training4Third.storyboard */,
 				DE20B7FD22B20398000ACD0D /* Training4FourthViewController.swift */,
 				DE20B7FF22B203A9000ACD0D /* Training4Fourth.storyboard */,
+				87D098E022BA863F00426DDC /* Training4CustomCell.xib */,
+				87D098E222BA865900426DDC /* Training4CustomTableViewCell.swift */,
 			);
 			path = Training4;
+			sourceTree = "<group>";
+		};
+		87D098DA22BA808A00426DDC /* sample6 */ = {
+			isa = PBXGroup;
+			children = (
+				87D098DB22BA809500426DDC /* Training5 */,
+			);
+			path = sample6;
+			sourceTree = "<group>";
+		};
+		87D098DB22BA809500426DDC /* Training5 */ = {
+			isa = PBXGroup;
+			children = (
+				87D098DC22BA80A800426DDC /* Training5ViewController.swift */,
+				87D098DE22BA80B900426DDC /* Training5.storyboard */,
+			);
+			path = Training5;
 			sourceTree = "<group>";
 		};
 		DE50680422967137005FF1FC /* sample2 */ = {
@@ -493,6 +521,7 @@
 				DE20B7F822B20337000ACD0D /* Training4Second.storyboard in Resources */,
 				87D098B822AE9AD400426DDC /* TableViewSample1.storyboard in Resources */,
 				DE65813E229FAA2E00C319E1 /* PushSample.storyboard in Resources */,
+				87D098DF22BA80B900426DDC /* Training5.storyboard in Resources */,
 				DE20B7F422B1FD2C000ACD0D /* Training3Third.storyboard in Resources */,
 				DE65814E229FAFEC00C319E1 /* ScrollViewSample.storyboard in Resources */,
 				87176984228C730700C5E8DE /* LaunchScreen.storyboard in Resources */,
@@ -500,6 +529,7 @@
 				87176981228C730700C5E8DE /* Assets.xcassets in Resources */,
 				8717697F228C730400C5E8DE /* Main.storyboard in Resources */,
 				DE50680C2296796A005FF1FC /* FirstViewController.storyboard in Resources */,
+				87D098E122BA863F00426DDC /* Training4CustomCell.xib in Resources */,
 				871769B3228C795700C5E8DE /* sample2.storyboard in Resources */,
 				DE20B80022B203A9000ACD0D /* Training4Fourth.storyboard in Resources */,
 				87D098D422B1633D00426DDC /* Training2Third.storyboard in Resources */,
@@ -541,6 +571,7 @@
 				DE65814C229FAE9E00C319E1 /* PushSecondViewController.swift in Sources */,
 				DE658150229FB00400C319E1 /* ScrollViewSampleViewController.swift in Sources */,
 				DE20B7FA22B20359000ACD0D /* Training4ThirdViewController.swift in Sources */,
+				87D098E322BA865900426DDC /* Training4CustomTableViewCell.swift in Sources */,
 				87D098C522B15A4100426DDC /* Training2ViewController.swift in Sources */,
 				DE65813C229FA73600C319E1 /* Sample31ViewController.swift in Sources */,
 				DE20B7F622B20326000ACD0D /* Training4SecondViewController.swift in Sources */,
@@ -562,6 +593,7 @@
 				DE658148229FAAA200C319E1 /* Sample3PushSecondViewController.swift in Sources */,
 				DEBA9E8422A8C9A1001E4A2F /* Custom2TableViewCell.swift in Sources */,
 				8717697A228C730400C5E8DE /* AppDelegate.swift in Sources */,
+				87D098DD22BA80A800426DDC /* Training5ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

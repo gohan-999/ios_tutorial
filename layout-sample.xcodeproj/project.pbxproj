@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -54,6 +54,8 @@
 		DE20B7FE22B20398000ACD0D /* Training4FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE20B7FD22B20398000ACD0D /* Training4FourthViewController.swift */; };
 		DE20B80022B203A9000ACD0D /* Training4Fourth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE20B7FF22B203A9000ACD0D /* Training4Fourth.storyboard */; };
 		DE2641C622C47A11009C43AE /* RealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2641C522C47A11009C43AE /* RealmExtension.swift */; };
+		DE2641C922C4811B009C43AE /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2641C822C4811B009C43AE /* StudentModel.swift */; };
+		DE2641CB22C48149009C43AE /* StudentSchoolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2641CA22C48149009C43AE /* StudentSchoolModel.swift */; };
 		DE50680622967154005FF1FC /* sample2-layout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE50680522967154005FF1FC /* sample2-layout.storyboard */; };
 		DE5068082296755F005FF1FC /* layout1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5068072296755F005FF1FC /* layout1ViewController.swift */; };
 		DE50680A2296758B005FF1FC /* layout2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5068092296758B005FF1FC /* layout2ViewController.swift */; };
@@ -157,6 +159,8 @@
 		DE20B7FD22B20398000ACD0D /* Training4FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4FourthViewController.swift; sourceTree = "<group>"; };
 		DE20B7FF22B203A9000ACD0D /* Training4Fourth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training4Fourth.storyboard; sourceTree = "<group>"; };
 		DE2641C522C47A11009C43AE /* RealmExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmExtension.swift; sourceTree = "<group>"; };
+		DE2641C822C4811B009C43AE /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		DE2641CA22C48149009C43AE /* StudentSchoolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSchoolModel.swift; sourceTree = "<group>"; };
 		DE50680522967154005FF1FC /* sample2-layout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "sample2-layout.storyboard"; sourceTree = "<group>"; };
 		DE5068072296755F005FF1FC /* layout1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout1ViewController.swift; sourceTree = "<group>"; };
 		DE5068092296758B005FF1FC /* layout2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout2ViewController.swift; sourceTree = "<group>"; };
@@ -246,7 +250,8 @@
 		87176978228C730400C5E8DE /* layout-sample */ = {
 			isa = PBXGroup;
 			children = (
-				DE2641C422C479CF009C43AE /* sample7 */,
+				DE2641C722C4810B009C43AE /* Model */,
+				DE2641C422C479CF009C43AE /* Extension */,
 				87D098DA22BA808A00426DDC /* sample6 */,
 				87D098B422AE9A9800426DDC /* sample5 */,
 				DEBA9E7E22A8C486001E4A2F /* sample4 */,
@@ -396,16 +401,24 @@
 				91542056D20371DC2ACA6FD8 /* Pods-layout-sampleUITests.debug.xcconfig */,
 				1BD4772E2D1C60EFFD5E85FB /* Pods-layout-sampleUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		DE2641C422C479CF009C43AE /* sample7 */ = {
+		DE2641C422C479CF009C43AE /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				DE2641C522C47A11009C43AE /* RealmExtension.swift */,
 			);
-			path = sample7;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DE2641C722C4810B009C43AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE2641C822C4811B009C43AE /* StudentModel.swift */,
+				DE2641CA22C48149009C43AE /* StudentSchoolModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DE50680422967137005FF1FC /* sample2 */ = {
@@ -711,6 +724,7 @@
 				87D098BC22AE9C1D00426DDC /* ReuseCustom1TableViewCell.swift in Sources */,
 				DE658145229FAAA200C319E1 /* Sample3PushFirstViewController.swift in Sources */,
 				DE2641C622C47A11009C43AE /* RealmExtension.swift in Sources */,
+				DE2641C922C4811B009C43AE /* StudentModel.swift in Sources */,
 				DE65814C229FAE9E00C319E1 /* PushSecondViewController.swift in Sources */,
 				DE658150229FB00400C319E1 /* ScrollViewSampleViewController.swift in Sources */,
 				DE20B7FA22B20359000ACD0D /* Training4ThirdViewController.swift in Sources */,
@@ -734,6 +748,7 @@
 				DE506812229679AD005FF1FC /* SecondViewController.swift in Sources */,
 				8717697C228C730400C5E8DE /* ViewController.swift in Sources */,
 				DE658148229FAAA200C319E1 /* Sample3PushSecondViewController.swift in Sources */,
+				DE2641CB22C48149009C43AE /* StudentSchoolModel.swift in Sources */,
 				DEBA9E8422A8C9A1001E4A2F /* Custom2TableViewCell.swift in Sources */,
 				8717697A228C730400C5E8DE /* AppDelegate.swift in Sources */,
 				87D098DD22BA80A800426DDC /* Training5ViewController.swift in Sources */,

@@ -42,7 +42,7 @@
 //                }
 //            }
 //        } catch let error as NSError {
-//            Logger.error(error)
+//            print(error)
 //        }
 //    }
 //
@@ -55,7 +55,7 @@
 //                }
 //            }
 //        } catch let error as NSError {
-//            Logger.error(error)
+//            print(error)
 //        }
 //    }
 //
@@ -68,7 +68,7 @@
 //                }
 //            }
 //        } catch let error as NSError {
-//            Logger.error(error)
+//            print(error)
 //        }
 //    }
 //
@@ -79,7 +79,7 @@
 //                realm.add(self, update: update)
 //            }
 //        } catch let error as NSError {
-//            Logger.error(error)
+//            print(error)
 //        }
 //    }
 //}

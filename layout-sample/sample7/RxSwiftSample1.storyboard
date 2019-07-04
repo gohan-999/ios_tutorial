@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ufP-X3-2Fg">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rx Swift Sample1 View Controller-->
+        <scene sceneID="paR-ZB-vFn">
+            <objects>
+                <viewController id="ufP-X3-2Fg" customClass="RxSwiftSample1ViewController" customModule="layout_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X19-m3-wBw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RxSwiftサンプル" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tlu-k1-yyO">
+                                <rect key="frame" x="20" y="64" width="374" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umA-pa-DOt">
+                                <rect key="frame" x="20" y="118" width="374" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.77283230629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="2XW-cn-HEE"/>
+                                </constraints>
+                                <state key="normal" title="ボタン"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Tlu-k1-yyO" firstAttribute="leading" secondItem="yOL-9f-Mu4" secondAttribute="leading" constant="20" id="54G-Ba-rgN"/>
+                            <constraint firstItem="umA-pa-DOt" firstAttribute="leading" secondItem="yOL-9f-Mu4" secondAttribute="leading" constant="20" id="5wx-td-zoP"/>
+                            <constraint firstItem="umA-pa-DOt" firstAttribute="top" secondItem="Tlu-k1-yyO" secondAttribute="bottom" constant="30" id="DJg-2h-FGI"/>
+                            <constraint firstItem="yOL-9f-Mu4" firstAttribute="trailing" secondItem="umA-pa-DOt" secondAttribute="trailing" constant="20" id="F1V-Ja-M76"/>
+                            <constraint firstItem="Tlu-k1-yyO" firstAttribute="top" secondItem="yOL-9f-Mu4" secondAttribute="top" constant="20" id="Ypc-7J-lab"/>
+                            <constraint firstItem="yOL-9f-Mu4" firstAttribute="trailing" secondItem="Tlu-k1-yyO" secondAttribute="trailing" constant="20" id="ht9-5h-xEG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yOL-9f-Mu4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qvp-rR-rvw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223" y="81"/>
+        </scene>
+    </scenes>
+</document>

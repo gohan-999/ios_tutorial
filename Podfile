@@ -6,6 +6,7 @@ target 'layout-sample' do
   use_frameworks!
 
   pod 'RealmSwift'
+  pod 'RxSwift'
 
   target 'layout-sampleTests' do
     inherit! :search_paths

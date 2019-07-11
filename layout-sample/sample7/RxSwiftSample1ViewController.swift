@@ -19,31 +19,33 @@ class RxSwiftSample1ViewController: UIViewController {
 //                print("----------: \(element)")
 //            })
 //            .disposed(by: disposeBag)
+
+        // PublishSubject
+        let sampleSubject = PublishSubject<Int>()
+        sampleSubject
+            .do(onNext: { print("------do: \($0)") })
+            .map { $0 * $0 }
+            .subscribe(onNext: { element in
+                print("----------: \(element)")
+            })
+            .disposed(by: disposeBag)
+
+        sampleSubject.onNext(1)
+        sampleSubject.onNext(2)
+        sampleSubject.onNext(3)
         
-//        let sampleSubject = PublishSubject<Int>()
-//        sampleSubject
-//            .do(onNext: { print("------do: \($0)") })
-//            .map { $0 * $0 }
-//            .subscribe(onNext: { element in
-//                print("----------: \(element)")
-//            })
-//            .disposed(by: disposeBag)
-//
-//        sampleSubject.onNext(1)
-//        sampleSubject.onNext(2)
-//        sampleSubject.onNext(3)
-        
-//        let sampleBehaviorSubject = BehaviorSubject<Int>(value: 0)
-//        sampleBehaviorSubject
-//            .do(onNext: { print("------do: \($0)") })
-//            .map { $0 * $0 }
-//            .subscribe(onNext: { element in
-//                print("----------: \(element)")
-//            })
-//            .disposed(by: disposeBag)
-//
-//        sampleBehaviorSubject.onNext(1)
-//        sampleBehaviorSubject.onNext(2)
-//        sampleBehaviorSubject.onNext(3)
+        // BehaviorSubject
+        let sampleBehaviorSubject = BehaviorSubject<Int>(value: 0)
+        sampleBehaviorSubject
+            .do(onNext: { print("------do: \($0)") })
+            .map { $0 * $0 }
+            .subscribe(onNext: { element in
+                print("----------: \(element)")
+            })
+            .disposed(by: disposeBag)
+
+        sampleBehaviorSubject.onNext(1)
+        sampleBehaviorSubject.onNext(2)
+        sampleBehaviorSubject.onNext(3)
     }
 }

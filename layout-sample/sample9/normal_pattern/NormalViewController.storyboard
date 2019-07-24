@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KwH-xF-a8V">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Normal View Controller-->
+        <scene sceneID="b3a-aO-OlQ">
+            <objects>
+                <viewController id="KwH-xF-a8V" customClass="NormalViewController" customModule="layout_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aCR-7U-0Pz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXN-PO-AdV">
+                                <rect key="frame" x="20" y="94" width="374" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="llB-yg-aiY">
+                                <rect key="frame" x="20" y="294" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search" translatesAutoresizingMaskIntoConstraints="NO" id="5ML-YM-WR2">
+                                <rect key="frame" x="132" y="94" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="PiI-oR-bdj"/>
+                                    <constraint firstAttribute="height" constant="150" id="T7a-z1-a2C"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENI-do-T82">
+                                <rect key="frame" x="132" y="374" width="150" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.77283230629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HdB-Nj-Jzi"/>
+                                    <constraint firstAttribute="width" constant="150" id="tuS-HU-BQk"/>
+                                </constraints>
+                                <state key="normal" title="検索"/>
+                                <connections>
+                                    <action selector="tappedSearchButton:" destination="KwH-xF-a8V" eventType="touchUpInside" id="6iT-fE-qaS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="お気に入りテキスト" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faZ-vn-7ml">
+                                <rect key="frame" x="20" y="801" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0je-eJ-ffM">
+                                <rect key="frame" x="20" y="842" width="374" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="300" id="pLI-F7-KxI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0je-eJ-ffM" firstAttribute="leading" secondItem="a3u-vV-2Nt" secondAttribute="leading" constant="20" id="1jp-Ja-ZCl"/>
+                            <constraint firstItem="a3u-vV-2Nt" firstAttribute="trailing" secondItem="0je-eJ-ffM" secondAttribute="trailing" constant="20" id="6JC-m1-7pq"/>
+                            <constraint firstItem="DXN-PO-AdV" firstAttribute="top" secondItem="a3u-vV-2Nt" secondAttribute="top" constant="50" id="9s3-sE-J7W"/>
+                            <constraint firstItem="a3u-vV-2Nt" firstAttribute="trailing" secondItem="faZ-vn-7ml" secondAttribute="trailing" constant="20" id="E90-So-mUS"/>
+                            <constraint firstItem="llB-yg-aiY" firstAttribute="top" secondItem="a3u-vV-2Nt" secondAttribute="top" constant="250" id="IBk-D4-Gyc"/>
+                            <constraint firstItem="5ML-YM-WR2" firstAttribute="centerX" secondItem="aCR-7U-0Pz" secondAttribute="centerX" id="JYp-hh-6JF"/>
+                            <constraint firstItem="5ML-YM-WR2" firstAttribute="top" secondItem="a3u-vV-2Nt" secondAttribute="top" constant="50" id="NUL-In-3An"/>
+                            <constraint firstItem="DXN-PO-AdV" firstAttribute="leading" secondItem="aCR-7U-0Pz" secondAttribute="leading" constant="20" id="Otn-Fd-gBw"/>
+                            <constraint firstItem="llB-yg-aiY" firstAttribute="leading" secondItem="a3u-vV-2Nt" secondAttribute="leading" constant="20" id="P9s-Ax-WRf"/>
+                            <constraint firstItem="ENI-do-T82" firstAttribute="top" secondItem="llB-yg-aiY" secondAttribute="bottom" constant="50" id="Ttu-st-CrM"/>
+                            <constraint firstItem="a3u-vV-2Nt" firstAttribute="bottom" secondItem="0je-eJ-ffM" secondAttribute="bottom" constant="20" id="U2W-Vr-Wmg"/>
+                            <constraint firstItem="a3u-vV-2Nt" firstAttribute="trailing" secondItem="llB-yg-aiY" secondAttribute="trailing" constant="20" id="UPe-P2-ReQ"/>
+                            <constraint firstItem="0je-eJ-ffM" firstAttribute="top" secondItem="faZ-vn-7ml" secondAttribute="bottom" constant="20" id="aZg-Fn-79f"/>
+                            <constraint firstAttribute="trailing" secondItem="DXN-PO-AdV" secondAttribute="trailing" constant="20" id="fsO-54-TwY"/>
+                            <constraint firstItem="ENI-do-T82" firstAttribute="centerX" secondItem="aCR-7U-0Pz" secondAttribute="centerX" id="gLC-Rl-CMn"/>
+                            <constraint firstItem="faZ-vn-7ml" firstAttribute="leading" secondItem="a3u-vV-2Nt" secondAttribute="leading" constant="20" id="wGX-nn-vNl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="a3u-vV-2Nt"/>
+                    </view>
+                    <connections>
+                        <outlet property="favListLabel" destination="0je-eJ-ffM" id="vE2-m4-QJi"/>
+                        <outlet property="imageView" destination="5ML-YM-WR2" id="I0L-n8-5FD"/>
+                        <outlet property="searchButton" destination="ENI-do-T82" id="bSS-Uh-mOi"/>
+                        <outlet property="textField" destination="llB-yg-aiY" id="RBR-Mo-leB"/>
+                        <outlet property="textLabel" destination="DXN-PO-AdV" id="RPU-UR-6dR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GrJ-tO-QJF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.565217391304358" y="175.44642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="search" width="173.5" height="200"/>
+    </resources>
+</document>

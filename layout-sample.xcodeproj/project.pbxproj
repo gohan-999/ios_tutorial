@@ -77,6 +77,14 @@
 		DE658150229FB00400C319E1 /* ScrollViewSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65814F229FB00400C319E1 /* ScrollViewSampleViewController.swift */; };
 		DEB3AC7F22CD8E300097BCFA /* RxSwiftSample1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB3AC7E22CD8E300097BCFA /* RxSwiftSample1.storyboard */; };
 		DEB3AC8322CD8E760097BCFA /* RxSwiftSample1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3AC8222CD8E760097BCFA /* RxSwiftSample1ViewController.swift */; };
+		DEB82A8C22E8258A00FF07C7 /* RxCocoa1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB82A8B22E8258A00FF07C7 /* RxCocoa1ViewController.swift */; };
+		DEB82A8E22E8259700FF07C7 /* RxCocoa1ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB82A8D22E8259700FF07C7 /* RxCocoa1ViewController.storyboard */; };
+		DEB82A9022E825AF00FF07C7 /* RxCocoa2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB82A8F22E825AF00FF07C7 /* RxCocoa2ViewController.swift */; };
+		DEB82A9222E825B600FF07C7 /* RxCocoa2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB82A9122E825B600FF07C7 /* RxCocoa2ViewController.storyboard */; };
+		DEB82A9522E8709400FF07C7 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB82A9422E8709400FF07C7 /* NormalViewController.swift */; };
+		DEB82A9722E870A100FF07C7 /* NormalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB82A9622E870A100FF07C7 /* NormalViewController.storyboard */; };
+		DEB82A9922E870AF00FF07C7 /* Normal2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB82A9822E870AF00FF07C7 /* Normal2ViewController.swift */; };
+		DEB82A9B22E870B900FF07C7 /* Normal2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB82A9A22E870B900FF07C7 /* Normal2ViewController.storyboard */; };
 		DEB9735822D6E8A900A82F16 /* RxSwiftSample2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB9735722D6E8A900A82F16 /* RxSwiftSample2ViewController.swift */; };
 		DEB9735A22D6E8BA00A82F16 /* RxSwiftSample2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB9735922D6E8BA00A82F16 /* RxSwiftSample2ViewController.storyboard */; };
 		DEB9735C22D6FAE500A82F16 /* RxSwiftSample3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB9735B22D6FAE500A82F16 /* RxSwiftSample3ViewController.swift */; };
@@ -189,6 +197,14 @@
 		DE65814F229FB00400C319E1 /* ScrollViewSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewSampleViewController.swift; sourceTree = "<group>"; };
 		DEB3AC7E22CD8E300097BCFA /* RxSwiftSample1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwiftSample1.storyboard; sourceTree = "<group>"; };
 		DEB3AC8222CD8E760097BCFA /* RxSwiftSample1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftSample1ViewController.swift; sourceTree = "<group>"; };
+		DEB82A8B22E8258A00FF07C7 /* RxCocoa1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoa1ViewController.swift; sourceTree = "<group>"; };
+		DEB82A8D22E8259700FF07C7 /* RxCocoa1ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxCocoa1ViewController.storyboard; sourceTree = "<group>"; };
+		DEB82A8F22E825AF00FF07C7 /* RxCocoa2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoa2ViewController.swift; sourceTree = "<group>"; };
+		DEB82A9122E825B600FF07C7 /* RxCocoa2ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxCocoa2ViewController.storyboard; sourceTree = "<group>"; };
+		DEB82A9422E8709400FF07C7 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		DEB82A9622E870A100FF07C7 /* NormalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NormalViewController.storyboard; sourceTree = "<group>"; };
+		DEB82A9822E870AF00FF07C7 /* Normal2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Normal2ViewController.swift; sourceTree = "<group>"; };
+		DEB82A9A22E870B900FF07C7 /* Normal2ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Normal2ViewController.storyboard; sourceTree = "<group>"; };
 		DEB9735722D6E8A900A82F16 /* RxSwiftSample2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftSample2ViewController.swift; sourceTree = "<group>"; };
 		DEB9735922D6E8BA00A82F16 /* RxSwiftSample2ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwiftSample2ViewController.storyboard; sourceTree = "<group>"; };
 		DEB9735B22D6FAE500A82F16 /* RxSwiftSample3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftSample3ViewController.swift; sourceTree = "<group>"; };
@@ -264,6 +280,7 @@
 		87176978228C730400C5E8DE /* layout-sample */ = {
 			isa = PBXGroup;
 			children = (
+				DEB82A8A22E8255600FF07C7 /* sample9 */,
 				DEB9735622D6E89100A82F16 /* sample8 */,
 				DEB3AC7D22CD8E1B0097BCFA /* sample7 */,
 				DE2641C722C4810B009C43AE /* Model */,
@@ -480,6 +497,29 @@
 			path = sample7;
 			sourceTree = "<group>";
 		};
+		DEB82A8A22E8255600FF07C7 /* sample9 */ = {
+			isa = PBXGroup;
+			children = (
+				DEB82A9322E8706800FF07C7 /* normal_pattern */,
+				DEB82A8B22E8258A00FF07C7 /* RxCocoa1ViewController.swift */,
+				DEB82A8D22E8259700FF07C7 /* RxCocoa1ViewController.storyboard */,
+				DEB82A8F22E825AF00FF07C7 /* RxCocoa2ViewController.swift */,
+				DEB82A9122E825B600FF07C7 /* RxCocoa2ViewController.storyboard */,
+			);
+			path = sample9;
+			sourceTree = "<group>";
+		};
+		DEB82A9322E8706800FF07C7 /* normal_pattern */ = {
+			isa = PBXGroup;
+			children = (
+				DEB82A9422E8709400FF07C7 /* NormalViewController.swift */,
+				DEB82A9622E870A100FF07C7 /* NormalViewController.storyboard */,
+				DEB82A9822E870AF00FF07C7 /* Normal2ViewController.swift */,
+				DEB82A9A22E870B900FF07C7 /* Normal2ViewController.storyboard */,
+			);
+			path = normal_pattern;
+			sourceTree = "<group>";
+		};
 		DEB9735622D6E89100A82F16 /* sample8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -620,12 +660,16 @@
 				871769B1228C794E00C5E8DE /* sample2-goal.storyboard in Resources */,
 				87D098BA22AE9BFA00426DDC /* ReuseCustom1.xib in Resources */,
 				DE65814A229FAE8300C319E1 /* PushSample2.storyboard in Resources */,
+				DEB82A8E22E8259700FF07C7 /* RxCocoa1ViewController.storyboard in Resources */,
 				871769AF228C794200C5E8DE /* sample1.storyboard in Resources */,
 				DEB9735A22D6E8BA00A82F16 /* RxSwiftSample2ViewController.storyboard in Resources */,
 				DEB9735E22D6FAF200A82F16 /* RxSwiftSample3ViewController.storyboard in Resources */,
+				DEB82A9722E870A100FF07C7 /* NormalViewController.storyboard in Resources */,
 				DE65813A229FA71600C319E1 /* sample31.storyboard in Resources */,
 				87D098C122AEA01000426DDC /* Training1.storyboard in Resources */,
+				DEB82A9B22E870B900FF07C7 /* Normal2ViewController.storyboard in Resources */,
 				87D098D022B15FA800426DDC /* Training2Second.storyboard in Resources */,
+				DEB82A9222E825B600FF07C7 /* RxCocoa2ViewController.storyboard in Resources */,
 				DE658146229FAAA200C319E1 /* Sample3PushFirstViewController.storyboard in Resources */,
 				DE20B7F822B20337000ACD0D /* Training4Second.storyboard in Resources */,
 				87D098B822AE9AD400426DDC /* TableViewSample1.storyboard in Resources */,
@@ -766,12 +810,14 @@
 				87D098BC22AE9C1D00426DDC /* ReuseCustom1TableViewCell.swift in Sources */,
 				DE658145229FAAA200C319E1 /* Sample3PushFirstViewController.swift in Sources */,
 				DE2641C622C47A11009C43AE /* RealmExtension.swift in Sources */,
+				DEB82A9922E870AF00FF07C7 /* Normal2ViewController.swift in Sources */,
 				DE2641C922C4811B009C43AE /* StudentModel.swift in Sources */,
 				DE65814C229FAE9E00C319E1 /* PushSecondViewController.swift in Sources */,
 				DE658150229FB00400C319E1 /* ScrollViewSampleViewController.swift in Sources */,
 				DE20B7FA22B20359000ACD0D /* Training4ThirdViewController.swift in Sources */,
 				87D098E322BA865900426DDC /* Training4CustomTableViewCell.swift in Sources */,
 				87D098C522B15A4100426DDC /* Training2ViewController.swift in Sources */,
+				DEB82A9522E8709400FF07C7 /* NormalViewController.swift in Sources */,
 				DE65813C229FA73600C319E1 /* Sample31ViewController.swift in Sources */,
 				DE20B7F622B20326000ACD0D /* Training4SecondViewController.swift in Sources */,
 				87D098B622AE9AC200426DDC /* TableViewSample1ViewController.swift in Sources */,
@@ -784,6 +830,7 @@
 				87D098CE22B15F9000426DDC /* Training2SecondViewController.swift in Sources */,
 				DE20B7F222B1FD1C000ACD0D /* Training3ThirdViewController.swift in Sources */,
 				DE506810229679A5005FF1FC /* FirstViewController.swift in Sources */,
+				DEB82A9022E825AF00FF07C7 /* RxCocoa2ViewController.swift in Sources */,
 				87D098D222B1632A00426DDC /* Training2ThirdViewController.swift in Sources */,
 				DEBA9E8222A8C753001E4A2F /* TableView1ViewController.swift in Sources */,
 				87D098BF22AE9FFC00426DDC /* Training1ViewController.swift in Sources */,
@@ -795,6 +842,7 @@
 				DE2641CB22C48149009C43AE /* StudentSchoolModel.swift in Sources */,
 				DEBA9E8422A8C9A1001E4A2F /* Custom2TableViewCell.swift in Sources */,
 				8717697A228C730400C5E8DE /* AppDelegate.swift in Sources */,
+				DEB82A8C22E8258A00FF07C7 /* RxCocoa1ViewController.swift in Sources */,
 				87D098DD22BA80A800426DDC /* Training5ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -971,8 +1019,9 @@
 			baseConfigurationReference = 20687F81CBF2CCC585935A14 /* Pods-layout-sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2W9VR65357;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "layout-sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -980,6 +1029,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.layout-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -990,8 +1040,9 @@
 			baseConfigurationReference = 0046C4F97A8CE2FA15973CF8 /* Pods-layout-sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2W9VR65357;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "layout-sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -999,6 +1050,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.layout-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

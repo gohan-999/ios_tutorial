@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s0X-MS-gsf">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Normal2 View Controller-->
+        <scene sceneID="rAu-cm-AGM">
+            <objects>
+                <viewController storyboardIdentifier="Normal2ViewController" id="s0X-MS-gsf" customClass="Normal2ViewController" customModule="layout_sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Axf-xQ-BNk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EB7-0Q-pWn">
+                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VkI-Xr-UbE">
+                                <rect key="frame" x="132" y="508.5" width="150" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.77283230629999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="1Bq-31-G3g"/>
+                                    <constraint firstAttribute="height" constant="50" id="aIN-Kh-5WA"/>
+                                </constraints>
+                                <state key="normal" title="お気に入り追加"/>
+                                <connections>
+                                    <action selector="tappedButton:" destination="s0X-MS-gsf" eventType="touchUpInside" id="3Kh-tk-6z7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lr-bO-Vc4">
+                                <rect key="frame" x="132" y="608.5" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.88318279600000005" green="1" blue="0.72335656429999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="9KT-bw-d1J"/>
+                                    <constraint firstAttribute="width" constant="150" id="zQk-Oo-yPV"/>
+                                </constraints>
+                                <state key="normal" title="閉じる"/>
+                                <connections>
+                                    <action selector="tappedCloseButton:" destination="s0X-MS-gsf" eventType="touchUpInside" id="rPv-ew-2AH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EB7-0Q-pWn" firstAttribute="centerY" secondItem="Axf-xQ-BNk" secondAttribute="centerY" id="1DY-GY-CxV"/>
+                            <constraint firstItem="4lr-bO-Vc4" firstAttribute="top" secondItem="VkI-Xr-UbE" secondAttribute="bottom" constant="50" id="P1Q-4Y-Ib2"/>
+                            <constraint firstItem="VkI-Xr-UbE" firstAttribute="top" secondItem="EB7-0Q-pWn" secondAttribute="bottom" constant="50" id="Sbc-97-ff4"/>
+                            <constraint firstItem="EB7-0Q-pWn" firstAttribute="centerX" secondItem="Axf-xQ-BNk" secondAttribute="centerX" id="fxy-eI-xIT"/>
+                            <constraint firstItem="4lr-bO-Vc4" firstAttribute="centerX" secondItem="Axf-xQ-BNk" secondAttribute="centerX" id="plU-kj-mZs"/>
+                            <constraint firstItem="VkI-Xr-UbE" firstAttribute="centerX" secondItem="Axf-xQ-BNk" secondAttribute="centerX" id="uif-3A-owx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lVl-CV-rkM"/>
+                    </view>
+                    <connections>
+                        <outlet property="textLabel" destination="EB7-0Q-pWn" id="R9k-OL-fGK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ft6-kP-wuj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="214" y="201"/>
+        </scene>
+    </scenes>
+</document>

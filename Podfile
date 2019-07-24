@@ -8,6 +8,8 @@ target 'layout-sample' do
   pod 'RealmSwift'
   pod 'RxSwift'
   pod 'RxCocoa'
+  #pod 'RxSwift', '~> 4.5.0'
+  #pod 'RxCocoa', '~> 4.5.0'
 
   target 'layout-sampleTests' do
     inherit! :search_paths

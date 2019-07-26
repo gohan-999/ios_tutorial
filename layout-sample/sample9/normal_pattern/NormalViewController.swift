@@ -31,10 +31,6 @@ class NormalViewController: UIViewController {
             .disposed(by: disposeBag)
     }
     
-    @objc private func endEditing() {
-        textField.resignFirstResponder()
-    }
-
     private func displayUpdate(by text: String) {
         imageView.isHidden = !text.isEmpty
         searchButton.isEnabled = !text.isEmpty

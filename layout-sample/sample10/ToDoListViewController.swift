@@ -8,6 +8,9 @@ class ToDoListViewController: UIViewController {
         didSet {
             tableView.delegate = self
             tableView.dataSource = self
+            let name = "ToDoCustomTableViewCell"
+            let nib = UINib(nibName: name, bundle: nil)
+            tableView.register(nib, forCellReuseIdentifier: name)
         }
     }
     @IBOutlet weak var editButton: UIBarButtonItem!
@@ -71,8 +74,8 @@ extension ToDoListViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
-        cell.textLabel?.text = tasks[indexPath.row]
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "ToDoCustomTableViewCell") as! ToDoCustomTableViewCell
+        cell.bind(by: tasks[indexPath.row])
         return cell
     }
 }
@@ -84,6 +87,7 @@ extension ToDoListViewController: UITableViewDelegate {
         let detail = vc as! ToDoDetailViewController
         detail.taskName = tasks[indexPath.row]
         navigationController?.pushViewController(vc, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {

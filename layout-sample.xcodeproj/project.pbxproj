@@ -99,6 +99,8 @@
 		DEE8EF9722F2B77100E1B855 /* ToDoListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE8EF9622F2B77100E1B855 /* ToDoListViewController.storyboard */; };
 		DEE8EF9922F2C04C00E1B855 /* ToDoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8EF9822F2C04C00E1B855 /* ToDoDetailViewController.swift */; };
 		DEE8EF9B22F2C05900E1B855 /* ToDoDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE8EF9A22F2C05900E1B855 /* ToDoDetailViewController.storyboard */; };
+		DEE8EF9D22F2C50900E1B855 /* ToDoCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8EF9C22F2C50900E1B855 /* ToDoCustomTableViewCell.swift */; };
+		DEE8EF9F22F2C51700E1B855 /* ToDoCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE8EF9E22F2C51700E1B855 /* ToDoCustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,6 +225,8 @@
 		DEE8EF9622F2B77100E1B855 /* ToDoListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToDoListViewController.storyboard; sourceTree = "<group>"; };
 		DEE8EF9822F2C04C00E1B855 /* ToDoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailViewController.swift; sourceTree = "<group>"; };
 		DEE8EF9A22F2C05900E1B855 /* ToDoDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToDoDetailViewController.storyboard; sourceTree = "<group>"; };
+		DEE8EF9C22F2C50900E1B855 /* ToDoCustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCustomTableViewCell.swift; sourceTree = "<group>"; };
+		DEE8EF9E22F2C51700E1B855 /* ToDoCustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoCustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -559,6 +563,8 @@
 				DEE8EF9622F2B77100E1B855 /* ToDoListViewController.storyboard */,
 				DEE8EF9822F2C04C00E1B855 /* ToDoDetailViewController.swift */,
 				DEE8EF9A22F2C05900E1B855 /* ToDoDetailViewController.storyboard */,
+				DEE8EF9C22F2C50900E1B855 /* ToDoCustomTableViewCell.swift */,
+				DEE8EF9E22F2C51700E1B855 /* ToDoCustomTableViewCell.xib */,
 			);
 			path = sample10;
 			sourceTree = "<group>";
@@ -675,6 +681,7 @@
 				87D098C322B159CE00426DDC /* Training2.storyboard in Resources */,
 				DEB3AC7F22CD8E300097BCFA /* RxSwiftSample1.storyboard in Resources */,
 				DE658147229FAAA200C319E1 /* Sample3PushSecondViewController.storyboard in Resources */,
+				DEE8EF9F22F2C51700E1B855 /* ToDoCustomTableViewCell.xib in Resources */,
 				DE50680E2296799C005FF1FC /* SecondViewController.storyboard in Resources */,
 				871769AB228C750300C5E8DE /* sample3-goal.storyboard in Resources */,
 				871769B1228C794E00C5E8DE /* sample2-goal.storyboard in Resources */,
@@ -845,6 +852,7 @@
 				DE20B7F622B20326000ACD0D /* Training4SecondViewController.swift in Sources */,
 				87D098B622AE9AC200426DDC /* TableViewSample1ViewController.swift in Sources */,
 				DE20B7EE22B1FADA000ACD0D /* Training3SecondViewController.swift in Sources */,
+				DEE8EF9D22F2C50900E1B855 /* ToDoCustomTableViewCell.swift in Sources */,
 				DEBA9E8822A8CD6E001E4A2F /* Custom1TableViewCell.swift in Sources */,
 				DE5068082296755F005FF1FC /* layout1ViewController.swift in Sources */,
 				DE658140229FAA5400C319E1 /* PushViewController.swift in Sources */,

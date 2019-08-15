@@ -2,14 +2,9 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ToDoListViewController: UIViewController {
-
+class RxTableViewSimpleToDoViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView! {
         didSet {
-//            tableView.delegate = self
-//            tableView.dataSource = self
-//            tableView.delegate = dataSource
-//            tableView.dataSource = dataSource
             let name = "ToDoCustomTableViewCell"
             let nib = UINib(nibName: name, bundle: nil)
             tableView.register(nib, forCellReuseIdentifier: name)
@@ -17,8 +12,7 @@ class ToDoListViewController: UIViewController {
     }
     @IBOutlet weak var editButton: UIBarButtonItem!
     @IBOutlet weak var addButton: UIBarButtonItem!
-    
-    private let dataSource = SampleToDoDataSource()
+
     private let disposeBag = DisposeBag()
     private var tasksSubject = BehaviorRelay<[String]>(value: [])
     private var tasks = [
@@ -35,22 +29,16 @@ class ToDoListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         bindingRx()
+        tasksSubject.accept(tasks)
     }
 
     private func bindingRx() {
-        tasksSubject.accept([
-            "肉買う",
-            "人参買う",
-            "ジャガイモ買う",
-            "玉ねぎ買う",
-            "ルー買う",
-            "果物買う",
-            "宿題やる",
-            "小説読む"
-        ])
-
         tasksSubject
-            .bind(to: tableView.rx.items(dataSource: dataSource))
+            .bind(to: tableView.rx.items) { tableView, row, taskName in
+                let cell = tableView.dequeueReusableCell(withIdentifier: "ToDoCustomTableViewCell") as! ToDoCustomTableViewCell
+                cell.bind(by: taskName)
+                return cell
+            }
             .disposed(by: disposeBag)
 
         editButton.rx
@@ -67,7 +55,7 @@ class ToDoListViewController: UIViewController {
                 alert.addTextField(configurationHandler: { textField in
                     textField.placeholder = "タスク名"
                 })
-                let defaultAction = UIAlertAction(title: "OK", style: .default, handler:{ alertAction in
+                let defaultAction = UIAlertAction(title: "OK", style: .default, handler: { alertAction in
                     let textFileds = alert.textFields as [UITextField]?
                     if let textField = textFileds?.first {
                         self.tasks.append(textField.text!)
@@ -75,42 +63,14 @@ class ToDoListViewController: UIViewController {
                         self.tableView.insertRows(at: [indexPath], with: .automatic)
                     }
                 })
-                
+
                 let cancelAction = UIAlertAction(title: "キャンセル", style: .cancel)
-                
+
                 alert.addAction(cancelAction)
                 alert.addAction(defaultAction)
-                
+
                 self.present(alert, animated: true, completion: nil)
             })
             .disposed(by: disposeBag)
     }
 }
-
-//extension ToDoListViewController: UITableViewDataSource {
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return tasks.count
-//    }
-//
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = self.tableView.dequeueReusableCell(withIdentifier: "ToDoCustomTableViewCell") as! ToDoCustomTableViewCell
-//        cell.bind(by: tasks[indexPath.row])
-//        return cell
-//    }
-//}
-//
-//extension ToDoListViewController: UITableViewDelegate {
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let storyBoard = UIStoryboard(name: "ToDoDetailViewController", bundle: nil)
-//        let vc = storyBoard.instantiateViewController(withIdentifier: "ToDoDetailViewController")
-//        let detail = vc as! ToDoDetailViewController
-//        detail.taskName = tasks[indexPath.row]
-//        navigationController?.pushViewController(vc, animated: true)
-//        tableView.deselectRow(at: indexPath, animated: true)
-//    }
-//
-//    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-//        tasks.remove(at: indexPath.row)
-//        tableView.deleteRows(at: [indexPath], with: .automatic)
-//    }
-//}

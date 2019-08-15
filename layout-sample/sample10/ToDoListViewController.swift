@@ -6,10 +6,8 @@ class ToDoListViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView! {
         didSet {
-//            tableView.delegate = self
-//            tableView.dataSource = self
-//            tableView.delegate = dataSource
-//            tableView.dataSource = dataSource
+            tableView.delegate = self
+            tableView.dataSource = self
             let name = "ToDoCustomTableViewCell"
             let nib = UINib(nibName: name, bundle: nil)
             tableView.register(nib, forCellReuseIdentifier: name)
@@ -38,21 +36,6 @@ class ToDoListViewController: UIViewController {
     }
 
     private func bindingRx() {
-        tasksSubject.accept([
-            "肉買う",
-            "人参買う",
-            "ジャガイモ買う",
-            "玉ねぎ買う",
-            "ルー買う",
-            "果物買う",
-            "宿題やる",
-            "小説読む"
-        ])
-
-        tasksSubject
-            .bind(to: tableView.rx.items(dataSource: dataSource))
-            .disposed(by: disposeBag)
-
         editButton.rx
             .tap
             .subscribe(onNext: { _ in
@@ -87,30 +70,30 @@ class ToDoListViewController: UIViewController {
     }
 }
 
-//extension ToDoListViewController: UITableViewDataSource {
-//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return tasks.count
-//    }
-//
-//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = self.tableView.dequeueReusableCell(withIdentifier: "ToDoCustomTableViewCell") as! ToDoCustomTableViewCell
-//        cell.bind(by: tasks[indexPath.row])
-//        return cell
-//    }
-//}
-//
-//extension ToDoListViewController: UITableViewDelegate {
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let storyBoard = UIStoryboard(name: "ToDoDetailViewController", bundle: nil)
-//        let vc = storyBoard.instantiateViewController(withIdentifier: "ToDoDetailViewController")
-//        let detail = vc as! ToDoDetailViewController
-//        detail.taskName = tasks[indexPath.row]
-//        navigationController?.pushViewController(vc, animated: true)
-//        tableView.deselectRow(at: indexPath, animated: true)
-//    }
-//
-//    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-//        tasks.remove(at: indexPath.row)
-//        tableView.deleteRows(at: [indexPath], with: .automatic)
-//    }
-//}
+extension ToDoListViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return tasks.count
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "ToDoCustomTableViewCell") as! ToDoCustomTableViewCell
+        cell.bind(by: tasks[indexPath.row])
+        return cell
+    }
+}
+
+extension ToDoListViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyBoard = UIStoryboard(name: "ToDoDetailViewController", bundle: nil)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "ToDoDetailViewController")
+        let detail = vc as! ToDoDetailViewController
+        detail.taskName = tasks[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        tasks.remove(at: indexPath.row)
+        tableView.deleteRows(at: [indexPath], with: .automatic)
+    }
+}

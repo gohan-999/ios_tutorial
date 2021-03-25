@@ -100,6 +100,16 @@
 		DEBA9E8422A8C9A1001E4A2F /* Custom2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA9E8322A8C9A1001E4A2F /* Custom2TableViewCell.swift */; };
 		DEBA9E8622A8C9B5001E4A2F /* Custom2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEBA9E8522A8C9B5001E4A2F /* Custom2TableViewCell.xib */; };
 		DEBA9E8822A8CD6E001E4A2F /* Custom1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA9E8722A8CD6E001E4A2F /* Custom1TableViewCell.swift */; };
+		DEBDFE35260CCDC5008F5EAF /* Simple1GoalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFE34260CCDC5008F5EAF /* Simple1GoalViewController.storyboard */; };
+		DEBDFE3A260CCDED008F5EAF /* Simple1GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBDFE39260CCDED008F5EAF /* Simple1GoalViewController.swift */; };
+		DEBDFE4B260CF4D9008F5EAF /* Simple2GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBDFE4A260CF4D9008F5EAF /* Simple2GoalViewController.swift */; };
+		DEBDFE50260CF505008F5EAF /* Simple2GoalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFE4F260CF505008F5EAF /* Simple2GoalViewController.storyboard */; };
+		DEBDFE68260CFC4B008F5EAF /* Simple3GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBDFE67260CFC4B008F5EAF /* Simple3GoalViewController.swift */; };
+		DEBDFE6D260CFC74008F5EAF /* Simple3GoalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFE6C260CFC74008F5EAF /* Simple3GoalViewController.storyboard */; };
+		DEBDFE80260D00B2008F5EAF /* Simple4GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBDFE7F260D00B2008F5EAF /* Simple4GoalViewController.swift */; };
+		DEBDFE85260D00D8008F5EAF /* Simple4GoalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFE84260D00D8008F5EAF /* Simple4GoalViewController.storyboard */; };
+		DEBDFE90260D20C2008F5EAF /* Simple2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBDFE8F260D20C2008F5EAF /* Simple2ViewController.swift */; };
+		DEBDFE95260D211D008F5EAF /* Simple2ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEBDFE94260D211D008F5EAF /* Simple2ViewController.storyboard */; };
 		DEE8EF9522F2B75F00E1B855 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8EF9422F2B75F00E1B855 /* ToDoListViewController.swift */; };
 		DEE8EF9722F2B77100E1B855 /* ToDoListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE8EF9622F2B77100E1B855 /* ToDoListViewController.storyboard */; };
 		DEE8EF9922F2C04C00E1B855 /* ToDoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8EF9822F2C04C00E1B855 /* ToDoDetailViewController.swift */; };
@@ -231,6 +241,16 @@
 		DEBA9E8322A8C9A1001E4A2F /* Custom2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom2TableViewCell.swift; sourceTree = "<group>"; };
 		DEBA9E8522A8C9B5001E4A2F /* Custom2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Custom2TableViewCell.xib; sourceTree = "<group>"; };
 		DEBA9E8722A8CD6E001E4A2F /* Custom1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom1TableViewCell.swift; sourceTree = "<group>"; };
+		DEBDFE34260CCDC5008F5EAF /* Simple1GoalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Simple1GoalViewController.storyboard; sourceTree = "<group>"; };
+		DEBDFE39260CCDED008F5EAF /* Simple1GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple1GoalViewController.swift; sourceTree = "<group>"; };
+		DEBDFE4A260CF4D9008F5EAF /* Simple2GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple2GoalViewController.swift; sourceTree = "<group>"; };
+		DEBDFE4F260CF505008F5EAF /* Simple2GoalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Simple2GoalViewController.storyboard; sourceTree = "<group>"; };
+		DEBDFE67260CFC4B008F5EAF /* Simple3GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple3GoalViewController.swift; sourceTree = "<group>"; };
+		DEBDFE6C260CFC74008F5EAF /* Simple3GoalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Simple3GoalViewController.storyboard; sourceTree = "<group>"; };
+		DEBDFE7F260D00B2008F5EAF /* Simple4GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple4GoalViewController.swift; sourceTree = "<group>"; };
+		DEBDFE84260D00D8008F5EAF /* Simple4GoalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Simple4GoalViewController.storyboard; sourceTree = "<group>"; };
+		DEBDFE8F260D20C2008F5EAF /* Simple2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple2ViewController.swift; sourceTree = "<group>"; };
+		DEBDFE94260D211D008F5EAF /* Simple2ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Simple2ViewController.storyboard; sourceTree = "<group>"; };
 		DEE8EF9422F2B75F00E1B855 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		DEE8EF9622F2B77100E1B855 /* ToDoListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToDoListViewController.storyboard; sourceTree = "<group>"; };
 		DEE8EF9822F2C04C00E1B855 /* ToDoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailViewController.swift; sourceTree = "<group>"; };
@@ -302,6 +322,7 @@
 		87176978228C730400C5E8DE /* layout-sample */ = {
 			isa = PBXGroup;
 			children = (
+				DEBDFE33260CCD80008F5EAF /* sample12 */,
 				DE08280D22FC0157000A5836 /* sample11 */,
 				DEE8EF9322F2B74600E1B855 /* sample10 */,
 				DEB82A8A22E8255600FF07C7 /* sample9 */,
@@ -579,6 +600,31 @@
 			path = sample4;
 			sourceTree = "<group>";
 		};
+		DEBDFE33260CCD80008F5EAF /* sample12 */ = {
+			isa = PBXGroup;
+			children = (
+				DEBDFE57260CFB14008F5EAF /* goal */,
+				DEBDFE8F260D20C2008F5EAF /* Simple2ViewController.swift */,
+				DEBDFE94260D211D008F5EAF /* Simple2ViewController.storyboard */,
+			);
+			path = sample12;
+			sourceTree = "<group>";
+		};
+		DEBDFE57260CFB14008F5EAF /* goal */ = {
+			isa = PBXGroup;
+			children = (
+				DEBDFE34260CCDC5008F5EAF /* Simple1GoalViewController.storyboard */,
+				DEBDFE39260CCDED008F5EAF /* Simple1GoalViewController.swift */,
+				DEBDFE4A260CF4D9008F5EAF /* Simple2GoalViewController.swift */,
+				DEBDFE4F260CF505008F5EAF /* Simple2GoalViewController.storyboard */,
+				DEBDFE67260CFC4B008F5EAF /* Simple3GoalViewController.swift */,
+				DEBDFE6C260CFC74008F5EAF /* Simple3GoalViewController.storyboard */,
+				DEBDFE7F260D00B2008F5EAF /* Simple4GoalViewController.swift */,
+				DEBDFE84260D00D8008F5EAF /* Simple4GoalViewController.storyboard */,
+			);
+			path = goal;
+			sourceTree = "<group>";
+		};
 		DEE8EF9322F2B74600E1B855 /* sample10 */ = {
 			isa = PBXGroup;
 			children = (
@@ -714,8 +760,10 @@
 				871769AF228C794200C5E8DE /* sample1.storyboard in Resources */,
 				DEB9735A22D6E8BA00A82F16 /* RxSwiftSample2ViewController.storyboard in Resources */,
 				DEB9735E22D6FAF200A82F16 /* RxSwiftSample3ViewController.storyboard in Resources */,
+				DEBDFE85260D00D8008F5EAF /* Simple4GoalViewController.storyboard in Resources */,
 				DEB82A9722E870A100FF07C7 /* NormalViewController.storyboard in Resources */,
 				DE5D6A992305361D001A88D7 /* RxTableViewToDoViewController.storyboard in Resources */,
+				DEBDFE6D260CFC74008F5EAF /* Simple3GoalViewController.storyboard in Resources */,
 				DE65813A229FA71600C319E1 /* sample31.storyboard in Resources */,
 				87D098C122AEA01000426DDC /* Training1.storyboard in Resources */,
 				DEB82A9B22E870B900FF07C7 /* Normal2ViewController.storyboard in Resources */,
@@ -731,8 +779,10 @@
 				DEE8EF9B22F2C05900E1B855 /* ToDoDetailViewController.storyboard in Resources */,
 				DE65814E229FAFEC00C319E1 /* ScrollViewSample.storyboard in Resources */,
 				87176984228C730700C5E8DE /* LaunchScreen.storyboard in Resources */,
+				DEBDFE35260CCDC5008F5EAF /* Simple1GoalViewController.storyboard in Resources */,
 				DE5D6A9D230537A4001A88D7 /* RxTableViewSimpleToDoViewController.storyboard in Resources */,
 				DEBA9E8022A8C74A001E4A2F /* TableView1.storyboard in Resources */,
+				DEBDFE95260D211D008F5EAF /* Simple2ViewController.storyboard in Resources */,
 				87176981228C730700C5E8DE /* Assets.xcassets in Resources */,
 				8717697F228C730400C5E8DE /* Main.storyboard in Resources */,
 				DE50680C2296796A005FF1FC /* FirstViewController.storyboard in Resources */,
@@ -745,6 +795,7 @@
 				DE20B7FC22B20369000ACD0D /* Training4Third.storyboard in Resources */,
 				DEBA9E8622A8C9B5001E4A2F /* Custom2TableViewCell.xib in Resources */,
 				871769AD228C793A00C5E8DE /* sample1-goal.storyboard in Resources */,
+				DEBDFE50260CF505008F5EAF /* Simple2GoalViewController.storyboard in Resources */,
 				DE20B7F022B1FAEC000ACD0D /* Training3Second.storyboard in Resources */,
 				87D098D922B16F1500426DDC /* Training4.storyboard in Resources */,
 			);
@@ -870,12 +921,15 @@
 				DE65814C229FAE9E00C319E1 /* PushSecondViewController.swift in Sources */,
 				DE658150229FB00400C319E1 /* ScrollViewSampleViewController.swift in Sources */,
 				DE20B7FA22B20359000ACD0D /* Training4ThirdViewController.swift in Sources */,
+				DEBDFE90260D20C2008F5EAF /* Simple2ViewController.swift in Sources */,
 				87D098E322BA865900426DDC /* Training4CustomTableViewCell.swift in Sources */,
 				87D098C522B15A4100426DDC /* Training2ViewController.swift in Sources */,
 				DEB82A9522E8709400FF07C7 /* NormalViewController.swift in Sources */,
 				DEE8EF9922F2C04C00E1B855 /* ToDoDetailViewController.swift in Sources */,
+				DEBDFE68260CFC4B008F5EAF /* Simple3GoalViewController.swift in Sources */,
 				DE65813C229FA73600C319E1 /* Sample31ViewController.swift in Sources */,
 				DE20B7F622B20326000ACD0D /* Training4SecondViewController.swift in Sources */,
+				DEBDFE4B260CF4D9008F5EAF /* Simple2GoalViewController.swift in Sources */,
 				87D098B622AE9AC200426DDC /* TableViewSample1ViewController.swift in Sources */,
 				DE20B7EE22B1FADA000ACD0D /* Training3SecondViewController.swift in Sources */,
 				DEE8EF9D22F2C50900E1B855 /* ToDoCustomTableViewCell.swift in Sources */,
@@ -889,6 +943,8 @@
 				DE20B7F222B1FD1C000ACD0D /* Training3ThirdViewController.swift in Sources */,
 				DE506810229679A5005FF1FC /* FirstViewController.swift in Sources */,
 				DEB82A9022E825AF00FF07C7 /* RxCocoa2ViewController.swift in Sources */,
+				DEBDFE3A260CCDED008F5EAF /* Simple1GoalViewController.swift in Sources */,
+				DEBDFE80260D00B2008F5EAF /* Simple4GoalViewController.swift in Sources */,
 				DE5D6A9B23053795001A88D7 /* RxTableViewSimpleToDoViewController.swift in Sources */,
 				87D098D222B1632A00426DDC /* Training2ThirdViewController.swift in Sources */,
 				DEBA9E8222A8C753001E4A2F /* TableView1ViewController.swift in Sources */,
